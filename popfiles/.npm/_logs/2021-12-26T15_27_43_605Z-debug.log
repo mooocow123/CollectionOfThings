@@ -1,0 +1,80 @@
+0 verbose cli [
+0 verbose cli   '/usr/local/lib/node_modules/node/bin/node',
+0 verbose cli   '/usr/bin/npm',
+0 verbose cli   'uninstall',
+0 verbose cli   '-g',
+0 verbose cli   'yarn'
+0 verbose cli ]
+1 info using npm@8.1.2
+2 info using node@v16.13.1
+3 timing npm:load:whichnode Completed in 0ms
+4 timing config:load:defaults Completed in 2ms
+5 timing config:load:file:/usr/lib/node_modules/npm/npmrc Completed in 1ms
+6 timing config:load:builtin Completed in 1ms
+7 timing config:load:cli Completed in 3ms
+8 timing config:load:env Completed in 1ms
+9 timing config:load:project Completed in 1ms
+10 timing config:load:file:/home/shaurya/.npmrc Completed in 0ms
+11 timing config:load:user Completed in 0ms
+12 timing config:load:file:/usr/local/lib/node_modules/node/etc/npmrc Completed in 0ms
+13 timing config:load:global Completed in 0ms
+14 timing config:load:validate Completed in 0ms
+15 timing config:load:credentials Completed in 2ms
+16 timing config:load:setEnvs Completed in 1ms
+17 timing config:load Completed in 12ms
+18 timing npm:load:configload Completed in 12ms
+19 timing npm:load:setTitle Completed in 0ms
+20 timing npm:load:setupLog Completed in 1ms
+21 timing config:load:flatten Completed in 4ms
+22 timing npm:load:cleanupLog Completed in 3ms
+23 timing npm:load:configScope Completed in 0ms
+24 timing npm:load:projectScope Completed in 0ms
+25 timing npm:load Completed in 22ms
+26 timing arborist:ctor Completed in 1ms
+27 timing idealTree:init Completed in 8ms
+28 timing idealTree:userRequests Completed in 0ms
+29 silly idealTree buildDeps
+30 timing idealTree:#root Completed in 0ms
+31 timing idealTree:buildDeps Completed in 2ms
+32 timing idealTree:fixDepFlags Completed in 1ms
+33 timing idealTree Completed in 13ms
+34 timing reify:loadTrees Completed in 31ms
+35 timing reify:diffTrees Completed in 2ms
+36 silly reify mark retired [
+36 silly reify   '/usr/local/lib/node_modules/node/lib/node_modules/yarn',
+36 silly reify   '/usr/local/lib/node_modules/node/bin/yarn',
+36 silly reify   '/usr/local/lib/node_modules/node/bin/yarnpkg'
+36 silly reify ]
+37 silly reify moves {
+37 silly reify   '/usr/local/lib/node_modules/node/lib/node_modules/yarn': '/usr/local/lib/node_modules/node/lib/node_modules/.yarn-aaR4EXkz',
+37 silly reify   '/usr/local/lib/node_modules/node/bin/yarn': '/usr/local/lib/node_modules/node/bin/.yarn-t8hNBDl3',
+37 silly reify   '/usr/local/lib/node_modules/node/bin/yarnpkg': '/usr/local/lib/node_modules/node/bin/.yarnpkg-HaL6x2wW'
+37 silly reify }
+38 timing reify:rollback:retireShallow Completed in 2ms
+39 timing command:uninstall Completed in 64ms
+40 verbose stack Error: EACCES: permission denied, rename '/usr/local/lib/node_modules/node/lib/node_modules/yarn' -> '/usr/local/lib/node_modules/node/lib/node_modules/.yarn-aaR4EXkz'
+41 verbose cwd /home/shaurya
+42 verbose Linux 5.15.8-76051508-generic
+43 verbose argv "/usr/local/lib/node_modules/node/bin/node" "/usr/bin/npm" "uninstall" "-g" "yarn"
+44 verbose node v16.13.1
+45 verbose npm  v8.1.2
+46 error code EACCES
+47 error syscall rename
+48 error path /usr/local/lib/node_modules/node/lib/node_modules/yarn
+49 error dest /usr/local/lib/node_modules/node/lib/node_modules/.yarn-aaR4EXkz
+50 error errno -13
+51 error Error: EACCES: permission denied, rename '/usr/local/lib/node_modules/node/lib/node_modules/yarn' -> '/usr/local/lib/node_modules/node/lib/node_modules/.yarn-aaR4EXkz'
+51 error  [Error: EACCES: permission denied, rename '/usr/local/lib/node_modules/node/lib/node_modules/yarn' -> '/usr/local/lib/node_modules/node/lib/node_modules/.yarn-aaR4EXkz'] {
+51 error   errno: -13,
+51 error   code: 'EACCES',
+51 error   syscall: 'rename',
+51 error   path: '/usr/local/lib/node_modules/node/lib/node_modules/yarn',
+51 error   dest: '/usr/local/lib/node_modules/node/lib/node_modules/.yarn-aaR4EXkz'
+51 error }
+52 error The operation was rejected by your operating system.
+52 error It is likely you do not have the permissions to access this file as the current user
+52 error
+52 error If you believe this might be a permissions issue, please double-check the
+52 error permissions of the file and its containing directories, or try running
+52 error the command again as root/Administrator.
+53 verbose exit -13

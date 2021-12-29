@@ -1,0 +1,30 @@
+[Info  - 5:48:23 pm] Pylance language server 2021.12.2 (pyright 211ebe44) starting
+[Info  - 5:48:23 pm] Server root directory: /home/shaurya/.vscode/extensions/ms-python.vscode-pylance-2021.12.2/dist
+[Info  - 5:48:23 pm] No configuration file found.
+[Info  - 5:48:23 pm] No pyproject.toml file found.
+[Info  - 5:48:23 pm] Setting pythonPath for service "devkit": "/bin/python3"
+[Warn  - 5:48:23 pm] stubPath /home/shaurya/Documents/devkit/typings is not a valid directory.
+[Info  - 5:48:23 pm] Assuming Python version 3.9
+[Info  - 5:48:23 pm] Assuming Python platform Linux
+[Warn  - 5:48:23 pm] Exception received when installing file system watcher: TypeError [ERR_FEATURE_UNAVAILABLE_ON_PLATFORM]: The feature watch recursively is unavailable on the current platform, which is being used to run Node.js
+[Warn  - 5:48:23 pm] Exception received when installing file system watcher: TypeError [ERR_FEATURE_UNAVAILABLE_ON_PLATFORM]: The feature watch recursively is unavailable on the current platform, which is being used to run Node.js
+[Warn  - 5:48:23 pm] Exception received when installing file system watcher: TypeError [ERR_FEATURE_UNAVAILABLE_ON_PLATFORM]: The feature watch recursively is unavailable on the current platform, which is being used to run Node.js
+[Warn  - 5:48:23 pm] Exception received when installing file system watcher: TypeError [ERR_FEATURE_UNAVAILABLE_ON_PLATFORM]: The feature watch recursively is unavailable on the current platform, which is being used to run Node.js
+[Info  - 5:48:23 pm] Searching for source files
+[Info  - 5:48:23 pm] Found 1 source file
+[Info  - 5:48:23 pm] Background analysis(1) root directory: /home/shaurya/.vscode/extensions/ms-python.vscode-pylance-2021.12.2/dist
+[Info  - 5:48:23 pm] Background analysis(1) started
+[Info  - 5:48:38 pm] No configuration file found.
+[Info  - 5:48:38 pm] No pyproject.toml file found.
+[Info  - 5:48:38 pm] Setting pythonPath for service "devkit": "/bin/python3"
+[Warn  - 5:48:38 pm] stubPath /home/shaurya/Documents/devkit/typings is not a valid directory.
+[Info  - 5:48:38 pm] Assuming Python version 3.9
+[Info  - 5:48:38 pm] Assuming Python platform Linux
+[Warn  - 5:48:38 pm] Exception received when installing file system watcher: TypeError [ERR_FEATURE_UNAVAILABLE_ON_PLATFORM]: The feature watch recursively is unavailable on the current platform, which is being used to run Node.js
+[Warn  - 5:48:38 pm] Exception received when installing file system watcher: TypeError [ERR_FEATURE_UNAVAILABLE_ON_PLATFORM]: The feature watch recursively is unavailable on the current platform, which is being used to run Node.js
+[Warn  - 5:48:38 pm] Exception received when installing file system watcher: TypeError [ERR_FEATURE_UNAVAILABLE_ON_PLATFORM]: The feature watch recursively is unavailable on the current platform, which is being used to run Node.js
+[Warn  - 5:48:38 pm] Exception received when installing file system watcher: TypeError [ERR_FEATURE_UNAVAILABLE_ON_PLATFORM]: The feature watch recursively is unavailable on the current platform, which is being used to run Node.js
+[Info  - 5:48:38 pm] Searching for source files
+[Info  - 5:48:38 pm] Found 1 source file
+[Info  - 5:50:31 pm] Searching for source files
+[Info  - 5:50:31 pm] Found 2 source files

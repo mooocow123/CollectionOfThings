@@ -1,0 +1,1535 @@
+{
+	"characters": [
+		{
+			"id": "1",
+			"loginIcon": {
+				"type": "static",
+				"path": "assets/characters/character_1/login_icon.svg"
+			},
+			"loginSelection": {
+				"type": "animation",
+				"path": "assets/characters/character_1/login_selection.json",
+				"config": {
+					"assetsPath": "assets/accesories/head/holiday/type_1/images/"
+				}
+			},
+			"loginAudioSelection": {
+				"type": "audio",
+				"path": "assets/characters/character_1/login_audio_selection.mp3"
+			},
+			"camp": {
+				"type": "animation",
+				"path": "assets/characters/character_1/camp.json",
+				"config": {
+					"segmentsData": {
+						"segments": [[0,21], [22,99]],
+						"force": true
+					},
+					"loop": 2,
+					"assetsPath": "assets/accesories/head/holiday/type_1/images/"
+				}
+			},
+			"game": [
+				{
+					"type": "static",
+					"path": "assets/accesories/head/holiday/type_1/images/helmet-back.png",
+					"config": {
+						"style": {
+							"width": "75%",
+							"height": "auto",
+							"transform": "translate(0px, -1%)"
+						}
+					}
+				},
+				{
+					"type": "static",
+					"path": "assets/characters/character_1/game.svg"
+				},
+				{
+					"type": "static",
+					"path": "assets/accesories/head/holiday/type_1/images/helmet-front.png",
+					"config": {
+						"style": {
+							"width": "75%",
+							"height": "auto",
+							"transform": "translate(0px, -1%)"
+						}
+					}
+				}
+			],
+			"flag": {
+				"type": "animation",
+				"path": "assets/characters/character_1/flag.json",
+				"config": {
+					"assetsPath": "assets/accesories/head/holiday/type_1/images/"
+				}
+			},
+			"podium": {
+				"type": "animation",
+				"path": "assets/characters/character_1/podium.json",
+				"config": {
+					"assetsPath": "assets/accesories/head/holiday/type_1/images/"
+				}
+			}
+		},
+		{
+			"id": "2",
+			"loginIcon": {
+				"type": "static",
+				"path": "assets/characters/character_2/login_icon.svg"
+			},
+			"loginSelection": {
+				"type": "animation",
+				"path": "assets/characters/character_2/login_selection.json",
+				"config": {
+					"assetsPath": "assets/accesories/head/holiday/type_1/images/"
+				}
+			},
+			"loginAudioSelection": {
+				"type": "audio",
+				"path": "assets/characters/character_2/login_audio_selection.mp3"
+			},
+			"camp": {
+				"type": "animation",
+				"path": "assets/characters/character_2/camp.json",
+				"config": {
+					"segmentsData": {
+						"segments": [[0,21], [22,99]],
+						"force": true
+					},
+					"loop": 2,
+					"assetsPath": "assets/accesories/head/holiday/type_1/images/"
+				}
+			},
+			"game": [
+				{
+					"type": "static",
+					"path": "assets/accesories/head/holiday/type_1/images/helmet-back.png",
+					"config": {
+						"style": {
+							"width": "75%",
+							"height": "auto",
+							"transform": "translate(0px, -1%)"
+						}
+					}
+				},
+				{
+					"type": "static",
+					"path": "assets/characters/character_2/game.svg"
+				},
+				{
+					"type": "static",
+					"path": "assets/accesories/head/holiday/type_1/images/helmet-front.png",
+					"config": {
+						"style": {
+							"width": "75%",
+							"height": "auto",
+							"transform": "translate(0px, -1%)"
+						}
+					}
+				}
+			],
+			"flag": {
+				"type": "animation",
+				"path": "assets/characters/character_2/flag.json",
+				"config": {
+					"assetsPath": "assets/accesories/head/holiday/type_1/images/"
+				}
+			},
+			"podium": {
+				"type": "animation",
+				"path": "assets/characters/character_2/podium.json",
+				"config": {
+					"assetsPath": "assets/accesories/head/holiday/type_1/images/"
+				}
+			}
+		},
+		{
+			"id": "3",
+			"loginIcon": {
+				"type": "static",
+				"path": "assets/characters/character_3/login_icon.svg"
+			},
+			"loginSelection": {
+				"type": "animation",
+				"path": "assets/characters/character_3/login_selection.json",
+				"config": {
+					"assetsPath": "assets/accesories/head/holiday/type_1/images/"
+				}
+			},
+			"loginAudioSelection": {
+				"type": "audio",
+				"path": "assets/characters/character_3/login_audio_selection.mp3"
+			},
+			"camp": {
+				"type": "animation",
+				"path": "assets/characters/character_3/camp.json",
+				"config": {
+					"segmentsData": {
+						"segments": [[0,21], [22,99]],
+						"force": true
+					},
+					"loop": 2,
+					"assetsPath": "assets/accesories/head/holiday/type_1/images/"
+				}
+			},
+			"game": [
+				{
+					"type": "static",
+					"path": "assets/accesories/head/holiday/type_1/images/helmet-back.png",
+					"config": {
+						"style": {
+							"width": "75%",
+							"height": "auto",
+							"transform": "translate(0px, -1%)"
+						}
+					}
+				},
+				{
+					"type": "static",
+					"path": "assets/characters/character_3/game.svg"
+				},
+				{
+					"type": "static",
+					"path": "assets/accesories/head/holiday/type_1/images/helmet-front.png",
+					"config": {
+						"style": {
+							"width": "75%",
+							"height": "auto",
+							"transform": "translate(0px, -1%)"
+						}
+					}
+				}
+			],
+			"flag": {
+				"type": "animation",
+				"path": "assets/characters/character_3/flag.json",
+				"config": {
+					"assetsPath": "assets/accesories/head/holiday/type_1/images/"
+				}
+			},
+			"podium": {
+				"type": "animation",
+				"path": "assets/characters/character_3/podium.json",
+				"config": {
+					"assetsPath": "assets/accesories/head/holiday/type_1/images/"
+				}
+			}
+		},
+		{
+			"id": "17",
+			"loginIcon": {
+				"type": "static",
+				"path": "assets/characters/character_17/login_icon.svg"
+			},
+			"loginSelection": {
+				"type": "animation",
+				"path": "assets/characters/character_17/login_selection.json",
+				"config": {
+					"assetsPath": "assets/accesories/head/holiday/type_1/images/"
+				}
+			},
+			"loginAudioSelection": {
+				"type": "audio",
+				"path": "assets/characters/character_17/login_audio_selection.mp3"
+			},
+			"camp": {
+				"type": "animation",
+				"path": "assets/characters/character_17/camp.json",
+				"config": {
+					"segmentsData": {
+						"segments": [[0,21], [22,99]],
+						"force": true
+					},
+					"loop": 2,
+					"assetsPath": "assets/accesories/head/holiday/type_1/images/"
+				}
+			},
+			"game": [
+				{
+					"type": "static",
+					"path": "assets/accesories/head/holiday/type_1/images/helmet-back.png",
+					"config": {
+						"style": {
+							"width": "95%",
+							"height": "auto",
+							"transform": "translate(0px, -10%)"
+						}
+					}
+				},
+				{
+					"type": "static",
+					"path": "assets/characters/character_17/game.svg"
+				},
+				{
+					"type": "static",
+					"path": "assets/accesories/head/holiday/type_1/images/helmet-front.png",
+					"config": {
+						"style": {
+							"width": "95%",
+							"height": "auto",
+							"transform": "translate(0px, -10%)"
+						}
+					}
+				}
+			],
+			"flag": {
+				"type": "animation",
+				"path": "assets/characters/character_17/flag.json",
+				"config": {
+					"assetsPath": "assets/accesories/head/holiday/type_1/images/"
+				}
+			},
+			"podium": {
+				"type": "animation",
+				"path": "assets/characters/character_17/podium.json",
+				"config": {
+					"assetsPath": "assets/accesories/head/holiday/type_1/images/"
+				}
+			}
+		},
+		{
+			"id": "5",
+			"loginIcon": {
+				"type": "static",
+				"path": "assets/characters/character_5/login_icon.svg"
+			},
+			"loginSelection": {
+				"type": "animation",
+				"path": "assets/characters/character_5/login_selection.json",
+				"config": {
+					"assetsPath": "assets/accesories/head/holiday/type_3/images/"
+				}
+			},
+			"loginAudioSelection": {
+				"type": "audio",
+				"path": "assets/characters/character_5/login_audio_selection.mp3"
+			},
+			"camp": {
+				"type": "animation",
+				"path": "assets/characters/character_5/camp.json",
+				"config": {
+					"segmentsData": {
+						"segments": [[0,21], [22,99]],
+						"force": true
+					},
+					"loop": 2,
+					"assetsPath": "assets/accesories/head/holiday/type_3/images/"
+				}
+			},
+			"game": [
+				{
+					"type": "static",
+					"path": "assets/accesories/head/holiday/type_3/images/helmet-back.png",
+					"config": {
+						"style": {
+							"width": "65%",
+							"height": "auto",
+							"transform": "translate(0px, -10%)"
+						}
+					}
+				},
+				{
+					"type": "static",
+					"path": "assets/characters/character_5/game.svg"
+				},
+				{
+					"type": "static",
+					"path": "assets/accesories/head/holiday/type_3/images/helmet-front.png",
+					"config": {
+						"style": {
+							"width": "65%",
+							"height": "auto",
+							"transform": "translate(0px, -10%)"
+						}
+					}
+				}
+			],
+			"flag": {
+				"type": "animation",
+				"path": "assets/characters/character_5/flag.json",
+				"config": {
+					"assetsPath": "assets/accesories/head/holiday/type_3/images/"
+				}
+			},
+			"podium": {
+				"type": "animation",
+				"path": "assets/characters/character_5/podium.json",
+				"config": {
+					"assetsPath": "assets/accesories/head/holiday/type_3/images/"
+				}
+			}
+		},
+		{
+			"id": "6",
+			"loginIcon": {
+				"type": "static",
+				"path": "assets/characters/character_6/login_icon.svg"
+			},
+			"loginSelection": {
+				"type": "animation",
+				"path": "assets/characters/character_6/login_selection.json",
+				"config": {
+					"assetsPath": "assets/accesories/head/holiday/type_3/images/"
+				}
+			},
+			"loginAudioSelection": {
+				"type": "audio",
+				"path": "assets/characters/character_6/login_audio_selection.mp3"
+			},
+			"camp": {
+				"type": "animation",
+				"path": "assets/characters/character_6/camp.json",
+				"config": {
+					"segmentsData": {
+						"segments": [[0,21], [22,99]],
+						"force": true
+					},
+					"loop": 2,
+					"assetsPath": "assets/accesories/head/holiday/type_3/images/"
+				}
+			},
+			"game": [
+				{
+					"type": "static",
+					"path": "assets/accesories/head/holiday/type_3/images/helmet-back.png",
+					"config": {
+						"style": {
+							"width": "60%",
+							"height": "auto",
+							"transform": "translate(0px, -10%)"
+						}
+					}
+				},
+				{
+					"type": "static",
+					"path": "assets/characters/character_6/game.svg"
+				},
+				{
+					"type": "static",
+					"path": "assets/accesories/head/holiday/type_3/images/helmet-front.png",
+					"config": {
+						"style": {
+							"width": "60%",
+							"height": "auto",
+							"transform": "translate(0px, -10%)"
+						}
+					}
+				}
+			],
+			"flag": {
+				"type": "animation",
+				"path": "assets/characters/character_6/flag.json",
+				"config": {
+					"assetsPath": "assets/accesories/head/holiday/type_3/images/"
+				}
+			},
+			"podium": {
+				"type": "animation",
+				"path": "assets/characters/character_6/podium.json",
+				"config": {
+					"assetsPath": "assets/accesories/head/holiday/type_3/images/"
+				}
+			}
+		},
+		{
+			"id": "7",
+			"loginIcon": {
+				"type": "static",
+				"path": "assets/characters/character_7/login_icon.svg"
+			},
+			"loginSelection": {
+				"type": "animation",
+				"path": "assets/characters/character_7/login_selection.json",
+				"config": {
+					"assetsPath": "assets/accesories/head/holiday/type_3/images/"
+				}
+			},
+			"loginAudioSelection": {
+				"type": "audio",
+				"path": "assets/characters/character_7/login_audio_selection.mp3"
+			},
+			"camp": {
+				"type": "animation",
+				"path": "assets/characters/character_7/camp.json",
+				"config": {
+					"segmentsData": {
+						"segments": [[0,21], [22,99]],
+						"force": true
+					},
+					"loop": 2,
+					"assetsPath": "assets/accesories/head/holiday/type_3/images/"
+				}
+			},
+			"game": [
+				{
+					"type": "static",
+					"path": "assets/accesories/head/holiday/type_3/images/helmet-back.png",
+					"config": {
+						"style": {
+							"width": "60%",
+							"height": "auto",
+							"transform": "translate(0px, -10%)"
+						}
+					}
+				},
+				{
+					"type": "static",
+					"path": "assets/characters/character_7/game.svg"
+				},
+				{
+					"type": "static",
+					"path": "assets/accesories/head/holiday/type_3/images/helmet-front.png",
+					"config": {
+						"style": {
+							"width": "60%",
+							"height": "auto",
+							"transform": "translate(0px, -10%)"
+						}
+					}
+				}
+			],
+			"flag": {
+				"type": "animation",
+				"path": "assets/characters/character_7/flag.json",
+				"config": {
+					"assetsPath": "assets/accesories/head/holiday/type_3/images/"
+				}
+			},
+			"podium": {
+				"type": "animation",
+				"path": "assets/characters/character_7/podium.json",
+				"config": {
+					"assetsPath": "assets/accesories/head/holiday/type_3/images/"
+				}
+			}
+		},
+		{
+			"id": "18",
+			"loginIcon": {
+				"type": "static",
+				"path": "assets/characters/character_18/login_icon.svg"
+			},
+			"loginSelection": {
+				"type": "animation",
+				"path": "assets/characters/character_18/login_selection.json",
+				"config": {
+					"assetsPath": "assets/accesories/head/holiday/type_3/images/"
+				}
+			},
+			"loginAudioSelection": {
+				"type": "audio",
+				"path": "assets/characters/character_18/login_audio_selection.mp3"
+			},
+			"camp": {
+				"type": "animation",
+				"path": "assets/characters/character_18/camp.json",
+				"config": {
+					"segmentsData": {
+						"segments": [[0,21], [22,99]],
+						"force": true
+					},
+					"loop": 2,
+					"assetsPath": "assets/accesories/head/holiday/type_3/images/"
+				}
+			},
+			"game": [
+				{
+					"type": "static",
+					"path": "assets/accesories/head/holiday/type_3/images/helmet-back.png",
+					"config": {
+						"style": {
+							"width": "60%",
+							"height": "auto",
+							"transform": "translate(0px, -10%)"
+						}
+					}
+				},
+				{
+					"type": "static",
+					"path": "assets/characters/character_18/game.svg"
+				},
+				{
+					"type": "static",
+					"path": "assets/accesories/head/holiday/type_3/images/helmet-front.png",
+					"config": {
+						"style": {
+							"width": "60%",
+							"height": "auto",
+							"transform": "translate(0px, -10%)"
+						}
+					}
+				}
+			],
+			"flag": {
+				"type": "animation",
+				"path": "assets/characters/character_18/flag.json",
+				"config": {
+					"assetsPath": "assets/accesories/head/holiday/type_3/images/"
+				}
+			},
+			"podium": {
+				"type": "animation",
+				"path": "assets/characters/character_18/podium.json",
+				"config": {
+					"assetsPath": "assets/accesories/head/holiday/type_3/images/"
+				}
+			}
+		},
+		{
+			"id": "9",
+			"loginIcon": {
+				"type": "static",
+				"path": "assets/characters/character_9/login_icon.svg"
+			},
+			"loginSelection": {
+				"type": "animation",
+				"path": "assets/characters/character_9/login_selection.json",
+				"config": {
+					"assetsPath": "assets/accesories/head/holiday/type_1/images/"
+				}
+			},
+			"loginAudioSelection": {
+				"type": "audio",
+				"path": "assets/characters/character_9/login_audio_selection.mp3"
+			},
+			"camp": {
+				"type": "animation",
+				"path": "assets/characters/character_9/camp.json",
+				"config": {
+					"segmentsData": {
+						"segments": [[0,21], [22,99]],
+						"force": true
+					},
+					"loop": 2,
+					"assetsPath": "assets/accesories/head/holiday/type_1/images/"
+				}
+			},
+			"game": [
+				{
+					"type": "static",
+					"path": "assets/accesories/head/holiday/type_1/images/helmet-back.png",
+					"config": {
+						"style": {
+							"width": "75%",
+							"height": "auto",
+							"transform": "translate(0px, -10%)"
+						}
+					}
+				},
+				{
+					"type": "static",
+					"path": "assets/characters/character_9/game.svg"
+				},
+				{
+					"type": "static",
+					"path": "assets/accesories/head/holiday/type_1/images/helmet-front.png",
+					"config": {
+						"style": {
+							"width": "75%",
+							"height": "auto",
+							"transform": "translate(0px, -10%)"
+						}
+					}
+				}
+			],
+			"flag": {
+				"type": "animation",
+				"path": "assets/characters/character_9/flag.json",
+				"config": {
+					"assetsPath": "assets/accesories/head/holiday/type_1/images/"
+				}
+			},
+			"podium": {
+				"type": "animation",
+				"path": "assets/characters/character_9/podium.json",
+				"config": {
+					"assetsPath": "assets/accesories/head/holiday/type_1/images/"
+				}
+			}
+		},
+		{
+			"id": "10",
+			"loginIcon": {
+				"type": "static",
+				"path": "assets/characters/character_10/login_icon.svg"
+			},
+			"loginSelection": {
+				"type": "animation",
+				"path": "assets/characters/character_10/login_selection.json",
+				"config": {
+					"assetsPath": "assets/accesories/head/holiday/type_2/images/"
+				}
+			},
+			"loginAudioSelection": {
+				"type": "audio",
+				"path": "assets/characters/character_10/login_audio_selection.mp3"
+			},
+			"camp": {
+				"type": "animation",
+				"path": "assets/characters/character_10/camp.json",
+				"config": {
+					"segmentsData": {
+						"segments": [[0,21], [22,99]],
+						"force": true
+					},
+					"loop": 2,
+					"assetsPath": "assets/accesories/head/holiday/type_2/images/"
+				}
+			},
+			"game": [
+				{
+					"type": "static",
+					"path": "assets/accesories/head/holiday/type_2/images/helmet-back.png",
+					"config": {
+						"style": {
+							"width": "100%",
+							"height": "auto",
+							"transform": "translate(0px, 0%)"
+						}
+					}
+				},
+				{
+					"type": "static",
+					"path": "assets/characters/character_10/game.svg"
+				},
+				{
+					"type": "static",
+					"path": "assets/accesories/head/holiday/type_2/images/helmet-front.png",
+					"config": {
+						"style": {
+							"width": "100%",
+							"height": "auto",
+							"transform": "translate(0px, 0%)"
+						}
+					}
+				}
+			],
+			"flag": {
+				"type": "animation",
+				"path": "assets/characters/character_10/flag.json",
+				"config": {
+					"assetsPath": "assets/accesories/head/holiday/type_2/images/"
+				}
+			},
+			"podium": {
+				"type": "animation",
+				"path": "assets/characters/character_10/podium.json",
+				"config": {
+					"assetsPath": "assets/accesories/head/holiday/type_2/images/"
+				}
+			}
+		},
+		{
+			"id": "11",
+			"loginIcon": {
+				"type": "static",
+				"path": "assets/characters/character_11/login_icon.svg"
+			},
+			"loginSelection": {
+				"type": "animation",
+				"path": "assets/characters/character_11/login_selection.json",
+				"config": {
+					"assetsPath": "assets/accesories/head/holiday/type_1/images/"
+				}
+			},
+			"loginAudioSelection": {
+				"type": "audio",
+				"path": "assets/characters/character_11/login_audio_selection.mp3"
+			},
+			"camp": {
+				"type": "animation",
+				"path": "assets/characters/character_11/camp.json",
+				"config": {
+					"segmentsData": {
+						"segments": [[0,21], [22,99]],
+						"force": true
+					},
+					"loop": 2,
+					"assetsPath": "assets/accesories/head/holiday/type_1/images/"
+				}
+			},
+			"game": [
+				{
+					"type": "static",
+					"path": "assets/accesories/head/holiday/type_1/images/helmet-back.png",
+					"config": {
+						"style": {
+							"width": "75%",
+							"height": "auto",
+							"transform": "translate(0px, -11%)"
+						}
+					}
+				},
+				{
+					"type": "static",
+					"path": "assets/characters/character_11/game.svg"
+				},
+				{
+					"type": "static",
+					"path": "assets/accesories/head/holiday/type_1/images/helmet-front.png",
+					"config": {
+						"style": {
+							"width": "75%",
+							"height": "auto",
+							"transform": "translate(0px, -11%)"
+						}
+					}
+				}
+			],
+			"flag": {
+				"type": "animation",
+				"path": "assets/characters/character_11/flag.json",
+				"config": {
+					"assetsPath": "assets/accesories/head/holiday/type_1/images/"
+				}
+			},
+			"podium": {
+				"type": "animation",
+				"path": "assets/characters/character_11/podium.json",
+				"config": {
+					"assetsPath": "assets/accesories/head/holiday/type_1/images/"
+				}
+			}
+		},
+		{
+			"id": "12",
+			"loginIcon": {
+				"type": "static",
+				"path": "assets/characters/character_12/login_icon.svg"
+			},
+			"loginSelection": {
+				"type": "animation",
+				"path": "assets/characters/character_12/login_selection.json",
+				"config": {
+					"assetsPath": "assets/accesories/head/holiday/type_1/images/"
+				}
+			},
+			"loginAudioSelection": {
+				"type": "audio",
+				"path": "assets/characters/character_12/login_audio_selection.mp3"
+			},
+			"camp": {
+				"type": "animation",
+				"path": "assets/characters/character_12/camp.json",
+				"config": {
+					"segmentsData": {
+						"segments": [[0,21], [22,99]],
+						"force": true
+					},
+					"loop": 2,
+					"assetsPath": "assets/accesories/head/holiday/type_1/images/"
+				}
+			},
+			"game": [
+				{
+					"type": "static",
+					"path": "assets/accesories/head/holiday/type_1/images/helmet-back.png",
+					"config": {
+						"style": {
+							"width": "90%",
+							"height": "auto",
+							"transform": "translate(0px, -13%)"
+						}
+					}
+				},
+				{
+					"type": "static",
+					"path": "assets/characters/character_12/game.svg"
+				},
+				{
+					"type": "static",
+					"path": "assets/accesories/head/holiday/type_1/images/helmet-front.png",
+					"config": {
+						"style": {
+							"width": "90%",
+							"height": "auto",
+							"transform": "translate(0px, -13%)"
+						}
+					}
+				}
+			],
+			"flag": {
+				"type": "animation",
+				"path": "assets/characters/character_12/flag.json",
+				"config": {
+					"assetsPath": "assets/accesories/head/holiday/type_1/images/"
+				}
+			},
+			"podium": {
+				"type": "animation",
+				"path": "assets/characters/character_12/podium.json",
+				"config": {
+					"assetsPath": "assets/accesories/head/holiday/type_1/images/"
+				}
+			}
+		},
+		{
+			"id": "13",
+			"loginIcon": {
+				"type": "static",
+				"path": "assets/characters/character_13/login_icon.svg"
+			},
+			"loginSelection": {
+				"type": "animation",
+				"path": "assets/characters/character_13/login_selection.json",
+				"config": {
+					"assetsPath": "assets/accesories/head/holiday/type_3/images/"
+				}
+			},
+			"loginAudioSelection": {
+				"type": "audio",
+				"path": "assets/characters/character_13/login_audio_selection.mp3"
+			},
+			"camp": {
+				"type": "animation",
+				"path": "assets/characters/character_13/camp.json",
+				"config": {
+					"segmentsData": {
+						"segments": [[0,21], [22,99]],
+						"force": true
+					},
+					"loop": 2,
+					"assetsPath": "assets/accesories/head/holiday/type_3/images/"
+				}
+			},
+			"game": [
+				{
+					"type": "static",
+					"path": "assets/accesories/head/holiday/type_3/images/helmet-back.png",
+					"config": {
+						"style": {
+							"width": "60%",
+							"height": "auto",
+							"transform": "translate(0px, -20%)"
+						}
+					}
+				},
+				{
+					"type": "static",
+					"path": "assets/characters/character_13/game.svg"
+				},
+				{
+					"type": "static",
+					"path": "assets/accesories/head/holiday/type_3/images/helmet-front.png",
+					"config": {
+						"style": {
+							"width": "60%",
+							"height": "auto",
+							"transform": "translate(0px, -20%)"
+						}
+					}
+				}
+			],
+			"flag": {
+				"type": "animation",
+				"path": "assets/characters/character_13/flag.json",
+				"config": {
+					"assetsPath": "assets/accesories/head/holiday/type_3/images/"
+				}
+			},
+			"podium": {
+				"type": "animation",
+				"path": "assets/characters/character_13/podium.json",
+				"config": {
+					"assetsPath": "assets/accesories/head/holiday/type_3/images/"
+				}
+			}
+		},
+		{
+			"id": "14",
+			"loginIcon": {
+				"type": "static",
+				"path": "assets/characters/character_14/login_icon.svg"
+			},
+			"loginSelection": {
+				"type": "animation",
+				"path": "assets/characters/character_14/login_selection.json",
+				"config": {
+					"assetsPath": "assets/accesories/head/holiday/type_2/images/"
+				}
+			},
+			"loginAudioSelection": {
+				"type": "audio",
+				"path": "assets/characters/character_14/login_audio_selection.mp3"
+			},
+			"camp": {
+				"type": "animation",
+				"path": "assets/characters/character_14/camp.json",
+				"config": {
+					"segmentsData": {
+						"segments": [[0,21], [22,99]],
+						"force": true
+					},
+					"loop": 2,
+					"assetsPath": "assets/accesories/head/holiday/type_2/images/"
+				}
+			},
+			"game": [
+				{
+					"type": "static",
+					"path": "assets/accesories/head/holiday/type_2/images/helmet-back.png",
+					"config": {
+						"style": {
+							"width": "75%",
+							"height": "auto",
+							"transform": "translate(0px, -25%)"
+						}
+					}
+				},
+				{
+					"type": "static",
+					"path": "assets/characters/character_14/game.svg"
+				},
+				{
+					"type": "static",
+					"path": "assets/accesories/head/holiday/type_2/images/helmet-front.png",
+					"config": {
+						"style": {
+							"width": "75%",
+							"height": "auto",
+							"transform": "translate(0px, -25%)"
+						}
+					}
+				}
+			],
+			"flag": {
+				"type": "animation",
+				"path": "assets/characters/character_14/flag.json",
+				"config": {
+					"assetsPath": "assets/accesories/head/holiday/type_2/images/"
+				}
+			},
+			"podium": {
+				"type": "animation",
+				"path": "assets/characters/character_14/podium.json",
+				"config": {
+					"assetsPath": "assets/accesories/head/holiday/type_2/images/"
+				}
+			}
+		},
+		{
+			"id": "15",
+			"loginIcon": {
+				"type": "static",
+				"path": "assets/characters/character_15/login_icon.svg"
+			},
+			"loginSelection": {
+				"type": "animation",
+				"path": "assets/characters/character_15/login_selection.json",
+				"config": {
+					"assetsPath": "assets/accesories/head/holiday/type_3/images/"
+				}
+			},
+			"loginAudioSelection": {
+				"type": "audio",
+				"path": "assets/characters/character_15/login_audio_selection.mp3"
+			},
+			"camp": {
+				"type": "animation",
+				"path": "assets/characters/character_15/camp.json",
+				"config": {
+					"segmentsData": {
+						"segments": [[0,21], [22,99]],
+						"force": true
+					},
+					"loop": 2,
+					"assetsPath": "assets/accesories/head/holiday/type_3/images/"
+				}
+			},
+			"game": [
+				{
+					"type": "static",
+					"path": "assets/accesories/head/holiday/type_3/images/helmet-back.png",
+					"config": {
+						"style": {
+							"width": "55%",
+							"height": "auto",
+							"transform": "translate(0px, -15%)"
+						}
+					}
+				},
+				{
+					"type": "static",
+					"path": "assets/characters/character_15/game.svg"
+				},
+				{
+					"type": "static",
+					"path": "assets/accesories/head/holiday/type_3/images/helmet-front.png",
+					"config": {
+						"style": {
+							"width": "55%",
+							"height": "auto",
+							"transform": "translate(0px, -15%)"
+						}
+					}
+				}
+			],
+			"flag": {
+				"type": "animation",
+				"path": "assets/characters/character_15/flag.json",
+				"config": {
+					"assetsPath": "assets/accesories/head/holiday/type_3/images/"
+				}
+			},
+			"podium": {
+				"type": "animation",
+				"path": "assets/characters/character_15/podium.json",
+				"config": {
+					"assetsPath": "assets/accesories/head/holiday/type_3/images/"
+				}
+			}
+		},
+		{
+			"id": "16",
+			"loginIcon": {
+				"type": "static",
+				"path": "assets/characters/character_16/login_icon.svg"
+			},
+			"loginSelection": {
+				"type": "animation",
+				"path": "assets/characters/character_16/login_selection.json",
+				"config": {
+					"assetsPath": "assets/accesories/head/holiday/type_3/images/"
+				}
+			},
+			"loginAudioSelection": {
+				"type": "audio",
+				"path": "assets/characters/character_16/login_audio_selection.mp3"
+			},
+			"camp": {
+				"type": "animation",
+				"path": "assets/characters/character_16/camp.json",
+				"config": {
+					"segmentsData": {
+						"segments": [[0,21], [22,99]],
+						"force": true
+					},
+					"loop": 2,
+					"assetsPath": "assets/accesories/head/holiday/type_3/images/"
+				}
+			},
+			"game": [
+				{
+					"type": "static",
+					"path": "assets/accesories/head/holiday/type_3/images/helmet-back.png",
+					"config": {
+						"style": {
+							"width": "60%",
+							"height": "auto",
+							"transform": "translate(0px, -15%)"
+						}
+					}
+				},
+				{
+					"type": "static",
+					"path": "assets/characters/character_16/game.svg"
+				},
+				{
+					"type": "static",
+					"path": "assets/accesories/head/holiday/type_3/images/helmet-front.png",
+					"config": {
+						"style": {
+							"width": "60%",
+							"height": "auto",
+							"transform": "translate(0px, -15%)"
+						}
+					}
+				}
+			],
+			"flag": {
+				"type": "animation",
+				"path": "assets/characters/character_16/flag.json",
+				"config": {
+					"assetsPath": "assets/accesories/head/holiday/type_3/images/"
+				}
+			},
+			"podium": {
+				"type": "animation",
+				"path": "assets/characters/character_16/podium.json",
+				"config": {
+					"assetsPath": "assets/accesories/head/holiday/type_3/images/"
+				}
+			}
+		},
+		{
+			"id": "4",
+			"loginIcon": {
+				"type": "static",
+				"path": "assets/characters/character_4/login_icon.svg"
+			},
+			"loginSelection": {
+				"type": "animation",
+				"path": "assets/characters/character_4/login_selection.json",
+				"config": {
+					"assetsPath": "assets/accesories/head/holiday/type_1/images/"
+				}
+			},
+			"loginAudioSelection": {
+				"type": "audio",
+				"path": "assets/characters/character_4/login_audio_selection.mp3"
+			},
+			"camp": {
+				"type": "animation",
+				"path": "assets/characters/character_4/camp.json",
+				"config": {
+					"segmentsData": {
+						"segments": [[0,21], [22,99]],
+						"force": true
+					},
+					"loop": 2,
+					"assetsPath": "assets/accesories/head/holiday/type_1/images/"
+				}
+			},
+			"game": [
+				{
+					"type": "static",
+					"path": "assets/accesories/head/holiday/type_1/images/helmet-back.png",
+					"config": {
+						"style": {
+							"width": "95%",
+							"height": "auto",
+							"transform": "translate(0px, -10%)"
+						}
+					}
+				},
+				{
+					"type": "static",
+					"path": "assets/characters/character_4/game.svg"
+				},
+				{
+					"type": "static",
+					"path": "assets/accesories/head/holiday/type_1/images/helmet-front.png",
+					"config": {
+						"style": {
+							"width": "95%",
+							"height": "auto",
+							"transform": "translate(0px, -10%)"
+						}
+					}
+				}
+			],
+			"flag": {
+				"type": "animation",
+				"path": "assets/characters/character_4/flag.json",
+				"config": {
+					"assetsPath": "assets/accesories/head/holiday/type_1/images/"
+				}
+			},
+			"podium": {
+				"type": "animation",
+				"path": "assets/characters/character_4/podium.json",
+				"config": {
+					"assetsPath": "assets/accesories/head/holiday/type_1/images/"
+				}
+			}
+		},
+		{
+			"id": "8",
+			"loginIcon": {
+				"type": "static",
+				"path": "assets/characters/character_8/login_icon.svg"
+			},
+			"loginSelection": {
+				"type": "animation",
+				"path": "assets/characters/character_8/login_selection.json",
+				"config": {
+					"assetsPath": "assets/accesories/head/holiday/type_3/images/"
+				}
+			},
+			"loginAudioSelection": {
+				"type": "audio",
+				"path": "assets/characters/character_8/login_audio_selection.mp3"
+			},
+			"camp": {
+				"type": "animation",
+				"path": "assets/characters/character_8/camp.json",
+				"config": {
+					"segmentsData": {
+						"segments": [[0,21], [22,99]],
+						"force": true
+					},
+					"loop": 2,
+					"assetsPath": "assets/accesories/head/holiday/type_3/images/"
+				}
+			},
+			"game": [
+				{
+					"type": "static",
+					"path": "assets/accesories/head/holiday/type_3/images/helmet-back.png",
+					"config": {
+						"style": {
+							"width": "60%",
+							"height": "auto",
+							"transform": "translate(0px, -10%)"
+						}
+					}
+				},
+				{
+					"type": "static",
+					"path": "assets/characters/character_8/game.svg"
+				},
+				{
+					"type": "static",
+					"path": "assets/accesories/head/holiday/type_3/images/helmet-front.png",
+					"config": {
+						"style": {
+							"width": "60%",
+							"height": "auto",
+							"transform": "translate(0px, -10%)"
+						}
+					}
+				}
+			],
+			"flag": {
+				"type": "animation",
+				"path": "assets/characters/character_8/flag.json",
+				"config": {
+					"assetsPath": "assets/accesories/head/holiday/type_3/images/"
+				}
+			},
+			"podium": {
+				"type": "animation",
+				"path": "assets/characters/character_8/podium.json",
+				"config": {
+					"assetsPath": "assets/accesories/head/holiday/type_3/images/"
+				}
+			}
+		}
+	],
+	"splash": {
+		"background": {
+			"type": "static",
+			"path": "assets/holiday/views/splash/background.jpg"
+		},
+		"animation": {
+			"type": "animation",
+			"path": "assets/holiday/views/splash/splash.json"
+		}
+	},
+	"login": {
+		"background": {
+			"type": "static",
+			"path": "assets/holiday/views/characters/background.jpg"
+		}
+	},
+	"waiting": {
+		"background": {
+			"path": "assets/holiday/views/waiting/background.jpg",
+			"type": "static"
+		}
+	},
+	"game": {
+		"audio": {
+			"path": "assets/holiday/views/game/song.mp3"
+		},
+		"dashboard": {
+			"background": {
+				"path": "assets/holiday/views/game/background_short.jpg",
+				"type": "static"
+			},
+			"backgroundGradient": {
+				"path": "assets/holiday/views/game/background_gradient.png",
+				"type": "static"
+			},
+			"celebration": [
+				{
+					"type": "animation",
+					"path": "assets/holiday/views/game/yeti_celebrating.json"
+				},
+				{
+					"type": "animation",
+					"path": "assets/holiday/views/game/yeti_cheering.json"
+				},
+				{
+					"type": "animation",
+					"path": "assets/holiday/views/game/yeti_thumbs_up.json"
+				}
+			],
+			"miscellaneous": [
+				{
+					"width": 40,
+					"height": 30,
+					"path": "assets/holiday/views/game/misc/misc-01.svg",
+					"type": "static"
+				},
+				{
+					"width": 45,
+					"height": 60,
+					"path": "assets/holiday/views/game/misc/misc-02.svg",
+					"type": "static"
+				},
+				{
+					"width": 60,
+					"height": 100,
+					"path": "assets/holiday/views/game/misc/misc-03.svg",
+					"type": "static"
+				},
+				{
+					"width": 40,
+					"height": 30,
+					"path": "assets/holiday/views/game/misc/misc-04.svg",
+					"type": "static"
+				},
+				{
+					"width": 45,
+					"height": 60,
+					"path": "assets/holiday/views/game/misc/misc-05.svg",
+					"type": "static"
+				},
+				{
+					"width": 60,
+					"height": 100,
+					"path": "assets/holiday/views/game/misc/misc-06.svg",
+					"type": "static"
+				}
+			]
+		},
+		"countdown": {
+			"background": {
+				"type": "static",
+				"path": "assets/holiday/views/countdown/background.jpg"
+			},
+			"animation": {
+				"type": "animation",
+				"path": "assets/holiday/views/countdown/data.json"
+			}
+		},
+		"questions" : {
+			"particleSystems": {
+				"falling": {
+					"rate": [2, 0.5],
+					"damping": 0,
+					"life": 5,
+					"mass": 1,
+					"emitterZone": [-250, -250, "[WIDTH]", "[HEIGHT]"],
+					"velocity": {
+						"value": 2,
+						"type": {
+							"name": "polar",
+							"span": [135, 135]
+						}
+					},
+					"crossZone": {
+						"type": "none",
+						"rectZone": [0,0,0,0]
+					},
+					"scale": [0, 1],
+					"rotate": {
+						"value": [-45]
+					},
+					"emissions": "[INFINITY]"
+				}
+
+			},
+			"elements" : [
+				{
+					"primary": "#0276c0",
+					"secondary": "#e5f1f8",
+					"particle" : {
+						"path": "assets/holiday/views/game/particles/Blue.png",
+						"type": "static"
+					},
+					"particleSystem": "falling"
+				},
+				{
+					"primary": "#992fc4",
+					"secondary": "#f4eaf9",
+					"particle" : {
+						"path": "assets/holiday/views/game/particles/Purple.png",
+						"type": "static"
+					},
+					"particleSystem": "falling"
+				},
+				{
+					"primary": "#07888a",
+					"secondary": "#e6f3f3",
+					"particle" : {
+						"path": "assets/holiday/views/game/particles/Yellow.png",
+						"type": "static"
+					},
+					"particleSystem": "falling"
+				}
+			],
+			"answers": [
+				{
+					"primary": "#00a8ff",
+					"secondary": "rgba(179, 229, 255, 0.5)"
+				},
+				{
+					"primary": "#feb500",
+					"secondary": "rgba(255, 229, 179, 0.5)"
+				},
+				{
+					"primary": "#ae74f0",
+					"secondary": "rgba(231, 213, 251, 0.5)"
+				},
+				{
+					"primary": "#005785",
+					"secondary": "rgba(0, 87, 133, 0.1)"
+				}
+			]
+		}
+	},
+	"winners": {
+		"podium": {
+			"background": {
+				"path": "assets/holiday/views/podium/background.jpg",
+				"type": "static"
+			},
+			"title": {
+				"path": "assets/holiday/views/podium/title-03.svg",
+				"type": "static"
+			},
+			"podium": {
+				"path": "assets/holiday/views/podium/podium.json",
+				"type": "animation"
+			}
+		},
+		"plantFlag": {
+			"background": {
+				"path": "assets/holiday/views/plantFlag/background.jpg",
+				"type": "static"
+			},
+			"animation": {
+				"path": "assets/holiday/views/plantFlag/yeti.json",
+				"type": "animation"
+			},
+			"message": {
+				"position": "bottom"
+			}
+		}
+	},
+	"main": {
+		"fonts": [
+			{
+				"family": "primaryRegular",
+				"name": "rye",
+				"url": "assets/fonts/rye/Rye-Regular.ttf"
+			},
+			{
+				"family": "mainButton",
+				"name": "rye",
+				"url": "assets/fonts/rye/Rye-Regular.ttf"
+			}
+		]
+	}
+}
+Î“Ö)e      aÉhaÉhCÇÕÍaË¾ˆ   [    O^partitionKey=%28https%2Cnearpod.com%29,:https://timetoclimb.nearpod.com/skins/4/data.json necko:classified 1 strongly-framed 1 security-info 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 request-method GET response-head HTTP/1.1 200 OK
+server: istio-envoy
+date: Mon, 27 Dec 2021 07:15:31 GMT
+content-type: application/json
+content-length: 36095
+last-modified: Thu, 09 Dec 2021 13:41:09 GMT
+etag: "61b20775-8cff"
+accept-ranges: bytes
+x-envoy-upstream-service-time: 0
+ original-response-headers server: istio-envoy
+date: Mon, 27 Dec 2021 07:15:31 GMT
+content-type: application/json
+content-length: 36095
+last-modified: Thu, 09 Dec 2021 13:41:09 GMT
+etag: "61b20775-8cff"
+accept-ranges: bytes
+x-envoy-upstream-service-time: 0
+ ctid 1 net-response-time-onstart 322 net-response-time-onstop 328   Œÿ

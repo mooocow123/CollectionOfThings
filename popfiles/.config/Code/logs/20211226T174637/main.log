@@ -1,0 +1,9 @@
+[2021-12-26 17:46:38.098] [main] [info] update#setState idle
+[2021-12-26 17:46:38.190] [main] [info] ExtensionHostStarterWorker created
+[2021-12-26 17:46:40.936] [main] [info] Starting extension host with pid 19983 (fork() took 31 ms).
+[2021-12-26 17:46:53.600] [main] [info] Extension host with pid 19983 exited with code: 0, signal: null.
+[2021-12-26 17:46:55.076] [main] [info] Starting extension host with pid 20074 (fork() took 8 ms).
+[2021-12-26 17:47:08.102] [main] [info] update#setState checking for updates
+[2021-12-26 17:47:08.593] [main] [info] update#setState idle
+[2021-12-26 18:32:03.381] [main] [info] Waiting for extension host with pid 20074 to exit.
+[2021-12-26 18:32:03.480] [main] [info] Extension host with pid 20074 exited with code: 0, signal: null.

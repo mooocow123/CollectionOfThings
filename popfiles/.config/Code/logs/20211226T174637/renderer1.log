@@ -1,0 +1,28 @@
+[2021-12-26 17:46:41.959] [renderer1] [error] [Extension Host] (node:19983) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `code --trace-deprecation ...` to show where the warning was created)
+[2021-12-26 17:46:55.867] [renderer1] [error] [Extension Host] (node:20074) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `code --trace-deprecation ...` to show where the warning was created)
+[2021-12-26 17:48:50.414] [renderer1] [error] Cannot read property 'length' of undefined: TypeError: Cannot read property 'length' of undefined
+	at /home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:67:257359
+	at p (/home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:67:262355)
+	at async z.provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:101516)
+[2021-12-26 17:53:55.453] [renderer1] [error] Cannot read property 'length' of undefined: TypeError: Cannot read property 'length' of undefined
+	at /home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:67:257359
+	at p (/home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:67:262355)
+	at async z.provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:101516)
+[2021-12-26 17:58:56.650] [renderer1] [error] Cannot read property 'length' of undefined: TypeError: Cannot read property 'length' of undefined
+	at /home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:67:257359
+	at p (/home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:67:262355)
+	at async z.provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:101516)
+[2021-12-26 18:05:54.527] [renderer1] [error] Cannot read property 'length' of undefined: TypeError: Cannot read property 'length' of undefined
+	at /home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:67:257359
+	at p (/home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:67:262355)
+	at async z.provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:101516)
+[2021-12-26 18:13:56.895] [renderer1] [error] Cannot read property 'length' of undefined: TypeError: Cannot read property 'length' of undefined
+	at /home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:67:257359
+	at p (/home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:67:262355)
+	at async z.provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:101516)
+[2021-12-26 18:18:59.851] [renderer1] [error] Cannot read property 'length' of undefined: TypeError: Cannot read property 'length' of undefined
+	at /home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:67:257359
+	at p (/home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:67:262355)
+	at async z.provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:101516)

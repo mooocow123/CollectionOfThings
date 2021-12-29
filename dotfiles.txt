@@ -1,0 +1,1 @@
+I dualboot Windows and Pop OS, The Pop OS Dotfiles are in popfiles.

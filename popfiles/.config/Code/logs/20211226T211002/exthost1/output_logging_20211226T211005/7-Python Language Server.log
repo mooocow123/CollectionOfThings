@@ -1,0 +1,24 @@
+[Info  - 9:10:09 pm] Pylance language server 2021.12.2 (pyright 211ebe44) starting
+[Info  - 9:10:09 pm] Server root directory: /home/shaurya/.vscode/extensions/ms-python.vscode-pylance-2021.12.2/dist
+[Info  - 9:10:09 pm] No configuration file found.
+[Info  - 9:10:09 pm] No pyproject.toml file found.
+[Info  - 9:10:09 pm] Setting pythonPath for service "devkit": "/bin/python3"
+[Warn  - 9:10:09 pm] stubPath /home/shaurya/Documents/devkit/typings is not a valid directory.
+[Info  - 9:10:09 pm] Assuming Python version 3.9
+[Info  - 9:10:09 pm] Assuming Python platform Linux
+[Warn  - 9:10:09 pm] Exception received when installing file system watcher: TypeError [ERR_FEATURE_UNAVAILABLE_ON_PLATFORM]: The feature watch recursively is unavailable on the current platform, which is being used to run Node.js
+[Warn  - 9:10:09 pm] Exception received when installing file system watcher: TypeError [ERR_FEATURE_UNAVAILABLE_ON_PLATFORM]: The feature watch recursively is unavailable on the current platform, which is being used to run Node.js
+[Warn  - 9:10:09 pm] Exception received when installing file system watcher: TypeError [ERR_FEATURE_UNAVAILABLE_ON_PLATFORM]: The feature watch recursively is unavailable on the current platform, which is being used to run Node.js
+[Warn  - 9:10:09 pm] Exception received when installing file system watcher: TypeError [ERR_FEATURE_UNAVAILABLE_ON_PLATFORM]: The feature watch recursively is unavailable on the current platform, which is being used to run Node.js
+[Info  - 9:10:09 pm] Searching for source files
+[Info  - 9:10:09 pm] Found 2 source files
+[Info  - 9:10:10 pm] Background analysis(1) root directory: /home/shaurya/.vscode/extensions/ms-python.vscode-pylance-2021.12.2/dist
+[Info  - 9:10:10 pm] Background analysis(1) started
+[Info  - 9:11:37 pm] Searching for source files
+[Info  - 9:11:37 pm] Found 2 source files
+[Info  - 9:12:13 pm] Searching for source files
+[Info  - 9:12:13 pm] Found 2 source files
+[Info  - 9:18:40 pm] Searching for source files
+[Info  - 9:18:40 pm] Found 2 source files
+[Info  - 9:18:45 pm] Searching for source files
+[Info  - 9:18:45 pm] Found 2 source files

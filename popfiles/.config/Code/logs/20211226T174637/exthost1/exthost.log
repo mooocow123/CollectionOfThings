@@ -1,0 +1,284 @@
+[2021-12-26 17:46:42.294] [exthost] [info] Extension host with pid 19983 started
+[2021-12-26 17:46:42.427] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+[2021-12-26 17:46:42.506] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2021-12-26 17:46:42.513] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.github
+[2021-12-26 17:46:42.581] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2021-12-26 17:46:42.706] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2021-12-26 17:46:42.856] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+[2021-12-26 17:46:42.981] [exthost] [info] Eager extensions activated
+[2021-12-26 17:46:43.050] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-26 17:46:43.112] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-26 17:46:53.571] [exthost] [info] extension host terminating: renderer closed the socket
+[2021-12-26 17:46:53.577] [exthost] [info] Extension host with pid 19983 exiting with code 0
+[2021-12-26 17:46:56.171] [exthost] [info] Extension host with pid 20074 started
+[2021-12-26 17:46:56.171] [exthost] [info] Skipping acquiring lock for /home/shaurya/.config/Code/User/workspaceStorage/07e5f719d77cb6d0384a4ab218399418.
+[2021-12-26 17:46:56.297] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+[2021-12-26 17:46:56.312] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2021-12-26 17:46:56.316] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.github
+[2021-12-26 17:46:56.440] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2021-12-26 17:46:56.455] [exthost] [info] Eager extensions activated
+[2021-12-26 17:46:56.460] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-26 17:46:56.466] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-26 17:46:56.471] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+[2021-12-26 17:46:59.010] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+[2021-12-26 17:47:01.064] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+[2021-12-26 17:47:01.079] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+[2021-12-26 17:47:01.120] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+[2021-12-26 17:47:01.299] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+[2021-12-26 17:48:20.194] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+[2021-12-26 17:48:20.597] [exthost] [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+[2021-12-26 17:48:21.805] [exthost] [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+[2021-12-26 17:48:39.670] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-26 17:48:39.671] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:120017
+	at async o.provideHover (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:90908)
+[2021-12-26 17:48:50.411] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-26 17:48:50.412] [exthost] [error] TypeError: Cannot read property 'length' of undefined
+	at /home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:67:257359
+	at p (/home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:67:262355)
+	at async z.provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:101516)
+[2021-12-26 17:49:02.696] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-26 17:49:02.696] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:120017
+	at async o.provideHover (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:90908)
+[2021-12-26 17:50:54.704] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-26 17:50:54.704] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:127536
+	at async T.provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:93216)
+[2021-12-26 17:51:48.846] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-26 17:51:48.847] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:127536
+	at async T.provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:93216)
+[2021-12-26 17:51:52.477] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-26 17:51:52.477] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:127536
+	at async T.provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:93216)
+[2021-12-26 17:52:29.684] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-26 17:52:29.692] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:127536
+	at async T.provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:93216)
+[2021-12-26 17:53:14.291] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-26 17:53:14.291] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:127536
+	at async T.provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:93216)
+[2021-12-26 17:53:45.086] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-26 17:53:45.087] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:127536
+	at async T.provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:93216)
+[2021-12-26 17:53:45.513] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-26 17:53:45.513] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:119225
+	at async z.resolveCompletionItem (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:102238)
+[2021-12-26 17:53:55.450] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-26 17:53:55.450] [exthost] [error] TypeError: Cannot read property 'length' of undefined
+	at /home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:67:257359
+	at p (/home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:67:262355)
+	at async z.provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:101516)
+[2021-12-26 17:54:06.953] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-26 17:54:06.953] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:119225
+	at async z.resolveCompletionItem (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:102238)
+[2021-12-26 17:54:35.937] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-26 17:54:35.937] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:127536
+	at async T.provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:93216)
+[2021-12-26 17:54:45.302] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-26 17:54:45.302] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:119225
+	at async z.resolveCompletionItem (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:102238)
+[2021-12-26 17:55:16.188] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-26 17:55:16.188] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:119225
+	at async z.resolveCompletionItem (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:102238)
+[2021-12-26 17:55:28.227] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-26 17:55:28.227] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:119225
+	at async z.resolveCompletionItem (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:102238)
+[2021-12-26 17:55:45.408] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-26 17:55:45.408] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:127536
+	at async T.provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:93216)
+[2021-12-26 17:56:12.337] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-26 17:56:12.337] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:118829
+	at async z.provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:101516)
+[2021-12-26 17:56:25.880] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-26 17:56:25.881] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:119225
+	at async z.resolveCompletionItem (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:102238)
+[2021-12-26 17:58:45.759] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-26 17:58:45.759] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:119225
+	at async z.resolveCompletionItem (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:102238)
+[2021-12-26 17:58:56.606] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-26 17:58:56.606] [exthost] [error] TypeError: Cannot read property 'length' of undefined
+	at /home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:67:257359
+	at p (/home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:67:262355)
+	at async z.provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:101516)
+[2021-12-26 17:58:57.005] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-26 17:58:57.005] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:119225
+	at async z.resolveCompletionItem (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:102238)
+[2021-12-26 18:05:54.514] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-26 18:05:54.524] [exthost] [error] TypeError: Cannot read property 'length' of undefined
+	at /home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:67:257359
+	at p (/home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:67:262355)
+	at async z.provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:101516)
+[2021-12-26 18:08:49.622] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-26 18:08:49.623] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:120017
+	at async o.provideHover (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:90908)
+[2021-12-26 18:08:55.332] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-26 18:08:55.332] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:120017
+	at async o.provideHover (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:90908)
+[2021-12-26 18:09:42.237] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-26 18:09:42.237] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:119225
+	at async z.resolveCompletionItem (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:102238)
+[2021-12-26 18:09:42.464] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-26 18:09:42.465] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:119225
+	at async z.resolveCompletionItem (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:102238)
+[2021-12-26 18:09:48.580] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-26 18:09:48.581] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:127536
+	at async T.provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:93216)
+[2021-12-26 18:13:56.891] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-26 18:13:56.892] [exthost] [error] TypeError: Cannot read property 'length' of undefined
+	at /home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:67:257359
+	at p (/home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:67:262355)
+	at async z.provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:101516)
+[2021-12-26 18:16:37.305] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-26 18:16:37.305] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:120017
+	at async o.provideHover (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:90908)
+[2021-12-26 18:16:51.951] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-26 18:16:51.951] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:127536
+	at async T.provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:93216)
+[2021-12-26 18:16:52.338] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-26 18:16:52.338] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:119225
+	at async z.resolveCompletionItem (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:102238)
+[2021-12-26 18:17:19.073] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-26 18:17:19.073] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:127536
+	at async T.provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:93216)
+[2021-12-26 18:17:20.402] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-26 18:17:20.402] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:119225
+	at async z.resolveCompletionItem (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:102238)
+[2021-12-26 18:18:16.205] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-26 18:18:16.206] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:119225
+	at async z.resolveCompletionItem (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:102238)
+[2021-12-26 18:18:16.233] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-26 18:18:16.233] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:119225
+	at async z.resolveCompletionItem (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:102238)
+[2021-12-26 18:18:16.258] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-26 18:18:16.258] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:119225
+	at async z.resolveCompletionItem (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:102238)
+[2021-12-26 18:18:48.977] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-26 18:18:48.977] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:119225
+	at async z.resolveCompletionItem (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:102238)
+[2021-12-26 18:18:49.178] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-26 18:18:49.178] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:119225
+	at async z.resolveCompletionItem (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:102238)
+[2021-12-26 18:18:49.182] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-26 18:18:49.182] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:119225
+	at async z.resolveCompletionItem (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:102238)
+[2021-12-26 18:18:49.187] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-26 18:18:49.187] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:119225
+	at async z.resolveCompletionItem (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:102238)
+[2021-12-26 18:18:59.810] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-26 18:18:59.810] [exthost] [error] TypeError: Cannot read property 'length' of undefined
+	at /home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:67:257359
+	at p (/home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:67:262355)
+	at async z.provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:101516)
+[2021-12-26 18:21:58.234] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-26 18:21:58.234] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:119225
+	at async z.resolveCompletionItem (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:102238)
+[2021-12-26 18:32:03.357] [exthost] [info] extension host terminating: renderer closed the socket
+[2021-12-26 18:32:03.444] [exthost] [info] Extension host with pid 20074 exiting with code 0

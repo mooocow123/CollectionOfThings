@@ -1,0 +1,45 @@
+0 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', '-g', 'npm@lts' ]
+1 info using npm@7.5.2
+2 info using node@v12.22.5
+3 timing config:load:defaults Completed in 2ms
+4 timing config:load:file:/usr/share/nodejs/npm/npmrc Completed in 3ms
+5 timing config:load:builtin Completed in 3ms
+6 timing config:load:cli Completed in 3ms
+7 timing config:load:env Completed in 0ms
+8 timing config:load:project Completed in 1ms
+9 timing config:load:file:/home/shaurya/.npmrc Completed in 0ms
+10 timing config:load:user Completed in 1ms
+11 timing config:load:file:/etc/npmrc Completed in 0ms
+12 timing config:load:global Completed in 0ms
+13 timing config:load:cafile Completed in 0ms
+14 timing config:load:validate Completed in 1ms
+15 timing config:load:setUserAgent Completed in 0ms
+16 timing config:load:setEnvs Completed in 2ms
+17 timing config:load Completed in 13ms
+18 verbose npm-session 81ffa14d5a57895a
+19 timing npm:load Completed in 25ms
+20 timing arborist:ctor Completed in 1ms
+21 timing idealTree:init Completed in 12ms
+22 http fetch GET 200 https://registry.npmjs.org/npm 729ms
+23 timing idealTree Completed in 806ms
+24 timing command:install Completed in 824ms
+25 verbose type tag
+26 verbose stack npm: No matching version found for npm@lts.
+26 verbose stack     at module.exports (/usr/share/nodejs/npm/node_modules/npm-pick-manifest/index.js:207:23)
+26 verbose stack     at /usr/share/nodejs/npm/node_modules/pacote/lib/registry.js:117:26
+26 verbose stack     at async Arborist.[retrieveSpecName] (/usr/share/nodejs/@npmcli/arborist/lib/arborist/build-ideal-tree.js:460:18)
+26 verbose stack     at async Promise.all (index 0)
+26 verbose stack     at async Arborist.[applyUserRequests] (/usr/share/nodejs/@npmcli/arborist/lib/arborist/build-ideal-tree.js:416:7)
+26 verbose stack     at async Arborist.buildIdealTree (/usr/share/nodejs/@npmcli/arborist/lib/arborist/build-ideal-tree.js:207:7)
+26 verbose stack     at async Arborist.reify (/usr/share/nodejs/@npmcli/arborist/lib/arborist/reify.js:127:5)
+26 verbose stack     at async install (/usr/share/nodejs/npm/lib/install.js:38:3)
+27 verbose cwd /home/shaurya
+28 verbose Linux 5.15.8-76051508-generic
+29 verbose argv "/usr/bin/node" "/usr/bin/npm" "install" "-g" "npm@lts"
+30 verbose node v12.22.5
+31 verbose npm  v7.5.2
+32 error code ETARGET
+33 error notarget No matching version found for npm@lts.
+34 error notarget In most cases you or one of your dependencies are requesting
+34 error notarget a package version that doesn't exist.
+35 verbose exit 1

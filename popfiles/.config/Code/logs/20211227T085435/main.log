@@ -1,0 +1,11 @@
+[2021-12-27 08:54:37.648] [main] [info] update#setState idle
+[2021-12-27 08:54:39.820] [main] [info] ExtensionHostStarterWorker created
+[2021-12-27 08:54:48.727] [main] [info] Starting extension host with pid 6389 (fork() took 21 ms).
+[2021-12-27 08:55:07.648] [main] [info] update#setState checking for updates
+[2021-12-27 08:55:08.030] [main] [info] update#setState idle
+[2021-12-27 09:55:07.750] [main] [info] update#setState checking for updates
+[2021-12-27 09:55:08.141] [main] [info] update#setState idle
+[2021-12-27 10:55:07.786] [main] [info] update#setState checking for updates
+[2021-12-27 10:55:08.162] [main] [info] update#setState idle
+[2021-12-27 11:14:38.674] [main] [info] Waiting for extension host with pid 6389 to exit.
+[2021-12-27 11:14:38.775] [main] [info] Extension host with pid 6389 exited with code: 0, signal: null.

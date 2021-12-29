@@ -1,0 +1,44 @@
+[2021-12-26 19:57:37.225] [exthost] [info] Extension host with pid 3174 started
+[2021-12-26 19:57:37.225] [exthost] [info] Skipping acquiring lock for /home/shaurya/.config/Code/User/workspaceStorage/07e5f719d77cb6d0384a4ab218399418.
+[2021-12-26 19:57:37.377] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+[2021-12-26 19:57:37.467] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2021-12-26 19:57:37.523] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.github
+[2021-12-26 19:57:37.937] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2021-12-26 19:57:38.116] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2021-12-26 19:57:38.611] [exthost] [info] Eager extensions activated
+[2021-12-26 19:57:38.766] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-26 19:57:38.854] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-26 19:57:38.991] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+[2021-12-26 19:58:00.723] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+[2021-12-26 19:58:00.799] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+[2021-12-26 19:58:00.817] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+[2021-12-26 19:58:00.883] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+[2021-12-26 19:58:01.850] [exthost] [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.vscode-pylance
+[2021-12-26 19:58:02.215] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+[2021-12-26 19:58:03.478] [exthost] [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+[2021-12-26 19:58:06.282] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-26 19:58:06.282] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:124663
+	at async s.provideDocumentSymbols (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:87704)
+[2021-12-26 19:58:06.286] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-26 19:58:06.286] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:67:239586
+	at async U.provideDocumentRangeSemanticTokens (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:100817)
+[2021-12-26 19:58:06.623] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-26 19:58:06.623] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:127536
+	at async T.provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:93216)
+[2021-12-26 19:58:07.061] [exthost] [error] [ms-python.python] provider FAILED
+[2021-12-26 19:58:07.061] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159824)
+	at S.handleFailedRequest (/home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:159675)
+	at /home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:24:127536
+	at async T.provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:93216)
+[2021-12-26 19:59:25.504] [exthost] [info] extension host terminating: renderer closed the socket
+[2021-12-26 19:59:25.528] [exthost] [info] Extension host with pid 3174 exiting with code 0

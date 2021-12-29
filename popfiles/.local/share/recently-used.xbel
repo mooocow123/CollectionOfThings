@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/shaurya/Documents/devkit" added="2021-12-26T12:16:53.491351Z" modified="2021-12-26T12:16:53.491359Z" visited="2021-12-26T12:16:53.491352Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2021-12-26T12:16:53.491354Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shaurya/Documents/devkit/README" added="2021-12-26T13:04:59.704707Z" modified="2021-12-26T13:05:43.877130Z" visited="2021-12-26T13:04:59.704712Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="LibreOffice 7.2" exec="&apos;soffice %u&apos;" modified="2021-12-26T13:05:43.877122Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shaurya/Documents/devkit/README.odt" added="2021-12-26T13:05:00.957644Z" modified="2021-12-26T13:05:54.950806Z" visited="2021-12-26T13:05:00.957645Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.oasis.opendocument.text"/>
+        <bookmark:applications>
+          <bookmark:application name="LibreOffice 7.2" exec="&apos;soffice %u&apos;" modified="2021-12-26T13:05:54.950803Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shaurya/Documents/devkit/README.docx" added="2021-12-26T13:05:54.950822Z" modified="2021-12-26T13:06:15.270610Z" visited="2021-12-26T13:05:54.950822Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.openxmlformats-officedocument.wordprocessingml.document"/>
+        <bookmark:applications>
+          <bookmark:application name="LibreOffice 7.2" exec="&apos;soffice %u&apos;" modified="2021-12-26T13:06:15.270606Z" count="4"/>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;libreoffice --writer %U&apos;" modified="2021-12-26T13:06:12.164363Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/shaurya/Random%20HDD/test" added="2021-12-27T06:51:27.260526Z" modified="2021-12-27T06:51:27.260534Z" visited="2021-12-27T06:51:27.260527Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;org.gnome.Nautilus %u&apos;" modified="2021-12-27T06:51:27.260530Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/shaurya/Random%20HDD/test/test" added="2021-12-27T06:52:36.320568Z" modified="2021-12-27T06:52:36.320574Z" visited="2021-12-27T06:52:36.320568Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="LibreOffice 7.2" exec="&apos;soffice %u&apos;" modified="2021-12-27T06:52:36.320571Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/shaurya/Random%20HDD/test/test.docx" added="2021-12-27T06:52:43.530819Z" modified="2021-12-27T06:53:02.585663Z" visited="2021-12-27T06:52:43.530820Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.openxmlformats-officedocument.wordprocessingml.document"/>
+        <bookmark:applications>
+          <bookmark:application name="LibreOffice 7.2" exec="&apos;soffice %u&apos;" modified="2021-12-27T06:53:02.585659Z" count="4"/>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;libreoffice --writer %U&apos;" modified="2021-12-27T06:52:57.285470Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shaurya/Videos/Screencast%20from%2029-12-21%2012:10:29%20PM%20IST.webm" added="2021-12-29T06:40:59.761970Z" modified="2021-12-29T07:08:20.505631Z" visited="2021-12-29T06:40:59.761972Z">
+    <title>Screencast from 29-12-21 12:10:29 PM IST.webm</title>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="video/webm"/>
+        <bookmark:groups>
+          <bookmark:group>Totem</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Shell.Screencast" exec="&apos;org.gnome.Shell.Screencast %u&apos;" modified="2021-12-29T06:40:59.761975Z" count="1"/>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;totem %U&apos;" modified="2021-12-29T07:08:20.046210Z" count="2"/>
+          <bookmark:application name="Videos" exec="&apos;totem %u&apos;" modified="2021-12-29T07:08:20.505629Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shaurya/Videos/Screencast%20from%2029-12-21%2012:11:03%20PM%20IST.webm" added="2021-12-29T06:41:10.821136Z" modified="2021-12-29T06:41:10.821141Z" visited="2021-12-29T06:41:10.821137Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="video/webm"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Shell.Screencast" exec="&apos;org.gnome.Shell.Screencast %u&apos;" modified="2021-12-29T06:41:10.821139Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/shaurya/Random%20HDD/CollectionOfThings" added="2021-12-29T07:15:04.017059Z" modified="2021-12-29T07:15:04.017064Z" visited="2021-12-29T07:15:04.017060Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;org.gnome.Nautilus %u&apos;" modified="2021-12-29T07:15:04.017062Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

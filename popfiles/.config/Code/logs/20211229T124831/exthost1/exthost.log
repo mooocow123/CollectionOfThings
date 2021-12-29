@@ -1,0 +1,11 @@
+[2021-12-29 12:48:39.482] [exthost] [info] Extension host with pid 5139 started
+[2021-12-29 12:48:39.482] [exthost] [info] Skipping acquiring lock for /home/shaurya/.config/Code/User/workspaceStorage/905f919fddba4808b09dd4e80a92812c.
+[2021-12-29 12:48:39.772] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+[2021-12-29 12:48:39.836] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2021-12-29 12:48:40.138] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.github
+[2021-12-29 12:48:40.226] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2021-12-29 12:48:40.382] [exthost] [info] Eager extensions activated
+[2021-12-29 12:48:40.388] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-29 12:48:40.740] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-29 12:48:40.870] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+[2021-12-29 12:48:41.968] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github

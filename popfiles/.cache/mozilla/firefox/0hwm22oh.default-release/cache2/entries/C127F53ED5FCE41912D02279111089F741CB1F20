@@ -1,0 +1,310 @@
+
+
+
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="google-site-verification" content="FqL97fLHaUM8zWWqkc4ZrvY-u9MikPkV0QshIzc-Bp8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/gphhapmejobijbbhgpjhcjognlahblep">
+    <link rel="stylesheet" href="/static/css/bootstrap.d90c3fb08321.css" />
+    <link rel="stylesheet" href="/static/css/sweettooth.f8aa30c157ff.css" />
+    <link rel="stylesheet" href="/static/css/style.1e3ca0b3b254.css" />
+    <link rel="shortcut icon" href="/static/images/favicon.b73b0c0e30d2.png" />
+    <link rel="alternate" type="application/rss+xml"
+          href="/rss/" title="Latest extensions in GNOME Shell Extensions" />
+    <title>Transparent Shell - GNOME Shell Extensions</title>
+    <script>
+        
+        var require = {
+            baseUrl: '/static/js/',
+            paths: {"versions/5/main": "versions/5/main.4db8a611e795", "versions/6/main": "versions/6/main.11b7e4373cf6", "versions/common/common": "versions/common/common.ff92e6455d9e", "versions/dummy/main": "versions/dummy/main.4941c990a963", "test/extensions": "test/extensions.6b2f99c92ac5", "test/paginatorUtils": "test/paginatorUtils.9ad984331de8", "test/qunit": "test/qunit.27be583f809e", "test/tests-main": "test/tests-main.a275f5926e96", "bootstrap.min": "bootstrap.min.79b5346433d3", "browser_extension": "browser_extension.b2e431a08568", "dbus": "dbus.ed89cc8ffdc0", "diff": "diff.69c433b044b4", "extensionUtils": "extensionUtils.40107e31af37", "extensions": "extensions.fe06408db96e", "fsui": "fsui.12f897412666", "hashParamUtils": "hashParamUtils.494276a6fa31", "jquery.colorbox": "jquery.colorbox.2769d3c25dc8", "jquery.hashchange": "jquery.hashchange.0f0a1c9a6db9", "jquery.jeditable": "jquery.jeditable.f0b2d2ec92fb", "jquery": "jquery.a09e13ee94d5", "jquery.raty": "jquery.raty.20fa4a124f73", "jquery.timeago": "jquery.timeago.564fbe3919cb", "js.cookie": "js.cookie.c0cf92b96144", "main": "main.03e7ab11d3e1", "messages": "messages.54220df60072", "modal": "modal.f7e2e939663f", "mustache": "mustache.ff5c30d0b97c", "paginator": "paginator.1e1cfc1ff2cf", "paginatorUtils": "paginatorUtils.9405c6611048", "require": "require.84b7823d3c10", "review-main": "review-main.facf2a7b785b", "review": "review.0ac40c4c5ed9", "settings": "settings.810115c8398b", "staticfiles": "staticfiles.b4e715794bfa", "switch": "switch.7e10600709da", "template": "template.5c74d6efe49c", "text": "text.2a17da82e446", "uploader": "uploader.6b3cc74aac40", "voca": "voca.073448277b5e"},
+            waitSeconds: 30 // It's fails sometimes with default 7 secs
+        };
+
+        var django_static_images = {"images/colorbox/border.png": "images/colorbox/border.b593eef87767.png", "images/colorbox/controls.png": "images/colorbox/controls.05ad6ec2cbc1.png", "images/colorbox/loading.gif": "images/colorbox/loading.f1d7268ba36b.gif", "images/colorbox/loading_background.png": "images/colorbox/loading_background.7649e6a7c32b.png", "images/colorbox/overlay.png": "images/colorbox/overlay.8918e1f6fbaa.png", "images/footer_arts/applications.png": "images/footer_arts/applications.495cdbfebf38.png", "images/action_button-bg.png": "images/action_button-bg.a7fa2c3a25ee.png", "images/avatar-default.svg": "images/avatar-default.7d57ce883ed0.svg", "images/configure-extension.png": "images/configure-extension.2792420d2ac7.png", "images/edit.svg": "images/edit.37d1f0720c6d.svg", "images/error.png": "images/error.42b2b2eadda9.png", "images/face-angry.png": "images/face-angry.9fce32af043a.png", "images/face-smile.png": "images/face-smile.40db0ca77b2d.png", "images/favicon.png": "images/favicon.b73b0c0e30d2.png", "images/foot.png": "images/foot.91c52c085458.png", "images/globaldomain-popup-arrow.png": "images/globaldomain-popup-arrow.6aeb75e2f843.png", "images/globaldomain-user-arrow.png": "images/globaldomain-user-arrow.e0d59dbd0115.png", "images/globalnav-arrow.png": "images/globalnav-arrow.f4c3fbe9b7e6.png", "images/gnome-extensions.svg": "images/gnome-extensions.2635f103c955.svg", "images/gnome-logo-extensions.png": "images/gnome-logo-extensions.88918c1c8dbb.png", "images/grass.png": "images/grass.3a2d2d2f8f0f.png", "images/hr-shadow.png": "images/hr-shadow.4af8804dbd53.png", "images/html-bg.png": "images/html-bg.018e737b3aae.png", "images/info.png": "images/info.b4acc242db50.png", "images/plugin-unknown.png": "images/plugin-unknown.c5f2c45659af.png", "images/plugin.png": "images/plugin.68be48572323.png", "images/search-clear-icon.png": "images/search-clear-icon.487abc5d1182.png", "images/search.svg": "images/search.ff22febd6143.svg", "images/spinner.gif": "images/spinner.7b9776076d5f.gif", "images/top_bar-bg.png": "images/top_bar-bg.094e5c1c682e.png", "images/top_bar-item-bg.png": "images/top_bar-item-bg.581e8d84f17b.png", "images/top_bar-item-hover-bg.png": "images/top_bar-item-hover-bg.d9047fc1e101.png", "images/uninstall-extension.png": "images/uninstall-extension.7250945dc51c.png", "images/upgrade.png": "images/upgrade.f9e4a20cde19.png", "images/warning.png": "images/warning.d6749682c04d.png"};
+    </script>
+    <script src="/jsi18n/"></script>
+    <script src="/static/js/browser_extension.b2e431a08568.js"></script>
+    <script src="/static/js/require.84b7823d3c10.js"></script>
+    <script src="/static/js/jquery.a09e13ee94d5.js"></script>
+    <script>
+        jQuery(function($) {
+            require(['main'], function(){});
+        });
+    </script>
+     
+  </head>
+  <body class="gnome-body">
+    <header class="gnome-header">
+        <div class="navbar navbar-fixed-top navbar-default affix-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-wrapper" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar top-bar"></span>
+                        <span class="icon-bar middle-bar"></span>
+                        <span class="icon-bar bottom-bar"></span>
+                    </button>
+                    <a class="gnome-navbar-brand" title="GNOME Shell Extensions" href="/"><img src="/static/images/gnome-extensions.2635f103c955.svg" alt="GNOME Shell Extensions" /></a>
+                    <ul class="nav navbar-nav icons visible-xs">
+                        
+                        <li class="dropdown">
+                        
+                            <a href="#userDropdownMenu" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img src="/static/images/avatar-default.7d57ce883ed0.svg" alt="GNOME Shell Extensions" /></a>
+                        
+                        </li>
+                    </ul>
+                </div>
+                <ul class="nav navbar-nav navbar-right no-padding">
+                    <li id="userDropdownMenu" class="dropdown">
+                    <a href="/accounts/login/" class="dropdown-toggle hidden-xs" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Log in <span class="caret"></span></a>
+                        <ul class="dropdown-menu login_popup_form">
+                            <li>
+                                
+
+
+<div class="row">
+    <div class="col-sm-12">
+        <form action="/accounts/login/" method="POST" class="form">
+          <input type="hidden" name="csrfmiddlewaretoken" value="GtQt767rcOc9pUFkbvOPyaw0HuDdrOVQJA0DHksIEhp8YseD7twvWJWcYn5D5Rb9">
+          <div class="form-group"><input type="text" name="username" autofocus="autofocus" placeholder="Username or email" class="form-control" required id="id_username"></div> 
+<div class="form-group"><input type="password" name="password" placeholder="Password" class="form-control" required id="id_password"></div> 
+            <div class="form-group">
+                <input type="hidden" name="next" class="form-control" value="/extension/3518/transparent-shell/"/>
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary btn-block">Log in</button>
+            </div>
+            <div class="form-group">
+                <a href="/accounts/password/reset/">Forgot your password?</a>
+            </div>
+            <li class="divider"></li>
+            <p>Don't have an account?</p>
+            <div class="form-group">
+                <a href="/accounts/register/" class="btn btn-success btn-block no-decoration">Register</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                
+                <div id="navbar-wrapper" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav">
+                    
+                        
+                            <li class=""><a href="/">Extensions</a></li>
+                        
+                            <li class=""><a href="/upload/">Add yours</a></li>
+                        
+                            <li class=""><a href="/local/">Installed extensions</a></li>
+                        
+                            <li class=""><a href="/about/">About</a></li>
+                        
+                    
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="clearfix"></div>
+
+    <div id="container" class="container gnome-content">
+        <div class="col-sm-12">
+            <div id="message_container">
+                
+
+                
+                
+            </div>
+
+            
+            
+
+            
+    <div class="extension single-page "
+         data-epk="3518"
+         data-uuid="transparent-shell@siroj42.github.io"
+         data-svm="{&quot;3.36&quot;: {&quot;pk&quot;: 23326, &quot;version&quot;: 6}, &quot;3.38&quot;: {&quot;pk&quot;: 23326, &quot;version&quot;: 6}, &quot;40&quot;: {&quot;pk&quot;: 23348, &quot;version&quot;: 7}}"
+         data-versions="{&quot;3.36&quot;: {&quot;18722&quot;: {&quot;pk&quot;: 18722, &quot;version&quot;: 1}, &quot;18928&quot;: {&quot;pk&quot;: 18928, &quot;version&quot;: 3}, &quot;19644&quot;: {&quot;pk&quot;: 19644, &quot;version&quot;: 4}, &quot;21159&quot;: {&quot;pk&quot;: 21159, &quot;version&quot;: 5}, &quot;23326&quot;: {&quot;pk&quot;: 23326, &quot;version&quot;: 6}}, &quot;3.38&quot;: {&quot;19644&quot;: {&quot;pk&quot;: 19644, &quot;version&quot;: 4}, &quot;21159&quot;: {&quot;pk&quot;: 21159, &quot;version&quot;: 5}, &quot;23326&quot;: {&quot;pk&quot;: 23326, &quot;version&quot;: 6}}, &quot;40&quot;: {&quot;23348&quot;: {&quot;pk&quot;: 23348, &quot;version&quot;: 7}}}">
+      <div class="extension-header col-xs-12 col-sm-8 col-md-8 col-lg-8 no-padding">
+        <img src="/static/images/plugin.png" class="icon"><h3 class="extension-name" id="extension_name">Transparent Shell</h3>
+        <span class="author">by <a href="/accounts/profile/siroj42">siroj42</a></span>
+      </div>
+
+      <div class="controls col-xs-12 col-sm-4 col-md-4 col-lg-4">
+        <div class="switch"></div>
+        <div class="extra-buttons">
+          <div class="upgrade-button" title="Upgrade this extension"></div>
+          <div class="configure-button" title="Configure this extension"></div>
+          <div class="uninstall-button" title="Uninstall this extension"></div>
+        </div>
+      </div>
+
+      <div style="clear: both;"></div>
+
+      <div class="extension-details">
+          
+              
+              <div class="screenshot col-xs-12 col-sm-5 col-md-4 col-lg-3 no-left-padding">
+                  <a href="/extension-data/screenshots/screenshot_3518_9Vsvpu6.png"><img src="/extension-data/screenshots/screenshot_3518_9Vsvpu6.png" /></a>
+              </div>
+              
+
+            <div class="col-sm-1 col-md-1 col-lg-1">
+            </div>
+          
+
+        <div class="col-xs-12 col-sm-6 col-md-7 col-lg-8 no-left-padding">
+            <p class="description" id="extension_description">Make the main shell components (Top bar, dash, search box) transparent.</p>
+
+            <dl>
+              
+              <dt>Extension Homepage</dt>
+              <dd><a href="https://github.com/Siroj42/gnome-extension-transparent-shell" id="extension_url">https://github.com/Siroj42/gnome-extension-transparent-shell</a></dd>
+              
+            </dl>
+            <dl>
+              <dt>Download</dt>
+              <dd class="extension-download">
+                  <select class="shell-version form-control">
+                      <option>Shell version‚Ä¶</option>
+                  </select>
+
+                  <select class="extension-version form-control">
+                      <option>Extension version‚Ä¶</option>
+                  </select>
+              </dd>
+            </dl>
+        </div>
+      </div>
+
+      
+
+      <hr style="clear: both;">
+
+      
+      
+<div id="opinion_form" class="col-sm-6 col-sm-push-6">
+  <h4>Your opinion</h4>
+  
+  <p class="unauthenticated">
+    
+    Unfortunately, to help prevent spam, we require that you <a href="/accounts/login/">log in to GNOME Shell Extensions</a> in order to post a comment or report an error. You understand, right?
+  </p>
+  
+</div>
+<div id="comments" class="col-sm-6 col-sm-pull-6 no-left-padding">
+  <h4>User Reviews</h4>
+  <div class="comments-holder"></div>
+  <p class="loading">Loading reviews‚Ä¶</p>
+</div>
+
+      
+
+      
+      
+</div>
+
+        </div>
+    </div>
+
+    <div class="clearfix"></div>
+
+    <div id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="links col-xs-12 col-sm-9">
+                      <div class="menu-footer-container">
+    <ul id="menu-footer" class="menu">
+        <li id="menu-item-1048" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1048"><a href="//www.gnome.org">The GNOME Project</a>
+            <ul class="sub-menu">
+                <li><a href="//www.gnome.org/about/">About Us</a></li>
+                <li><a href="//www.gnome.org/get-involved/">Get Involved</a></li>
+                <li><a href="//www.gnome.org/support-gnome/">Support GNOME</a></li>
+                <li><a href="//www.gnome.org/merchandise/">Merchandise</a></li>
+                <li><a href="//www.gnome.org/contact/">Contact Us</a></li>
+                <li><a href="//www.gnome.org/privacy/">Privacy</a></li>
+                <li><a href="//www.gnome.org/foundation/">The GNOME Foundation</a></li>
+            </ul>
+        </li>
+        <li id="menu-item-1047" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1047"><a href="#" onclick="return false;">Resources</a>
+            <ul class="sub-menu">
+                <li><a href="//developer.gnome.org">Developer Center</a></li>
+                <li><a href="//help.gnome.org">Documentation</a></li>
+                <li><a href="//wiki.gnome.org">Wiki</a></li>
+                <li><a href="//mail.gnome.org/mailman/listinfo">Mailing Lists</a></li>
+                <li><a href="//wiki.gnome.org/Community/GettingInTouch/IRC">IRC Channels</a></li>
+                <li><a href="//gitlab.gnome.org/">Bug Tracker</a></li>
+                <li><a href="//gitlab.gnome.org/">Development Code</a></li>
+            </ul>
+        </li>
+        <li id="menu-item-1046" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1046"><a href="//www.gnome.org/news">News</a>
+            <ul class="sub-menu">
+                <li><a href="//www.gnome.org/press/">Press Releases</a></li>
+                <li><a href="//www.gnome.org/start/stable">Latest Release</a></li>
+                <li><a href="//planet.gnome.org">Planet GNOME</a></li>
+            </ul>
+        </li>
+    </ul>
+</div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- footnotes -->
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div id="footnotes" class="col-sm-9">
+                        Copyright &copy; 2005&#8210;2021 <strong class="gnome_logo">The GNOME Project</strong><br>
+                        <small>Free to share and remix: <a href="https://creativecommons.org/licenses/by/3.0/">Creative Commons CC-BY</a>. Optimised for standards. Hosted by <a href="https://www.redhat.com/">Red Hat</a>. Powered by <a href="https://www.djangoproject.com">Django</a> and <a href="https://gitlab.gnome.org/Infrastructure/extensions-web">SweetTooth</a></small>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <script src="/static/js/bootstrap.min.79b5346433d3.js"></script>
+  </body>
+</html>
+;∆˙ŒÍ…      a…W¥a…W∫C« ta…Wµ   f    O^partitionKey=%28https%2Cgnome.org%29,:https://extensions.gnome.org/extension/3518/transparent-shell/ necko:classified 1 strongly-framed 1 security-info FnhllAKWRHGAlo+ESXykKAAAAAAAAAAAwAAAAAAAAEaphjojH6pBabDSgSnsfLHeAAAAAgAAAAAAAAAAAAAAAAAAAAEANgFmCjImkVxP+7sgiYWmMt8FvcOXmlQiTNWFiWlrbpbqgwAAAAAAAAbKMIIGxjCCBa6gAwIBAgISA0mbQ46OUwQ+xhqL7r9E5X5vMA0GCSqGSIb3DQEBCwUAMDIxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQswCQYDVQQDEwJSMzAeFw0yMTExMjMwOTEzMzFaFw0yMjAyMjEwOTEzMzBaMBYxFDASBgNVBAMMCyouZ25vbWUub3JnMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAuIJgQl9J0EmRVwpn4TL5GYpK5d12SARjKKf9VWdZXUBcUx/YTtCvLsVrj54UmAEdO85KH+JzdOi1fyJXDEJD9baEBYKK8/j4MWKBXjeJ4DVBCxnFOf5MWKwSDFbG2veZmSG9NLzcRpnEsQYelnwC7i8DkPU5u0oquJrnZMEKdLENlzlT/Z1we2dzOozK3a465xM1pG9KGzWh1GFBpsjG5X9PRsvXRs+mmLeIQfol0CGU8kHCST4qJUZ5Iv9QODQmlSq+YqHtU00cTELvUhpCPpxxa7QllFxNVfqYiqA0tmBtS3iWhNey1TgYDtGv868GMV7zJozgwQEUpkuWEtfzYK1lik8k4U8MSY0ojFXQOUFkdfi2JPjNhAoRUOQ5C0d7hdIpKqB03kfP1sCvorSnpOXGPiAlx3lWt9lNfu/ywVIg+6jgJ9vo88AGLslQtu24vDxy4E6ajcCYuNSwSbjnk6nxDldF3lSYWbXNoj7Femi5Ke2lHWkxhcoknWFh7qkly6i8LiTqSsl3YrPOsHFHDtIh6b+rPgZQd+q5YaTPEorzrcvb6UIG9tgpAfPdRKIUeX8NRWHyuh6XW5/v7p02sbZGoyg3EeHar82bD/aWkOnRHidUa2L5N5OC0VZrNVSVk/vg08kvMhAfogtlKyyiL+CFRcgGUASDbbUrxOE7eq8CAwEAAaOCAvAwggLsMA4GA1UdDwEB/wQEAwIFoDAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwDAYDVR0TAQH/BAIwADAdBgNVHQ4EFgQUeeSocoKbolmCq9DiF7BZPFhiFTMwHwYDVR0jBBgwFoAUFC6zF7dYVsuuUAlA5h+vnYsUwsYwVQYIKwYBBQUHAQEESTBHMCEGCCsGAQUFBzABhhVodHRwOi8vcjMuby5sZW5jci5vcmcwIgYIKwYBBQUHMAKGFmh0dHA6Ly9yMy5pLmxlbmNyLm9yZy8wgcAGA1UdEQSBuDCBtYIgKi5idWd6aWxsYS1hdHRhY2htZW50cy5nbm9tZS5vcmeCEiouZ2l0bGFiLmdub21lLm9yZ4ILKi5nbm9tZS5vcmeCHiouZ25vbWUucGFnZXMuZ2l0bGFiLmdub21lLm9yZ4IOKi5pZC5nbm9tZS5vcmeCDyoubGFzLmdub21lLm9yZ4IVKi5vcGVuc2hpZnQuZ25vbWUub3JnghgqLnBhZ2VzLmdpdGxhYi5nbm9tZS5vcmcwTAYDVR0gBEUwQzAIBgZngQwBAgEwNwYLKwYBBAGC3xMBAQEwKDAmBggrBgEFBQcCARYaaHR0cDovL2Nwcy5sZXRzZW5jcnlwdC5vcmcwggEDBgorBgEEAdZ5AgQCBIH0BIHxAO8AdQBGpVXrdfqRIDC1oolp9PN9ESxBdL79SbiFq/L8cP5tRwAAAX1MSUqrAAAEAwBGMEQCIAhHN5TV+QLuVygwhnAYuUAipskXJGc5MH8Hsah+EZbaAiBT77hRFM1N4Ak/rZ580d92Q4lknWx4A50JHfTN7lz37AB2AN+lXqtogk8fbK3uuF9OPlrqzaISpGpejjsSwCBEXCpzAAABfUxJTG0AAAQDAEcwRQIgW35YvTWht0HOEQbuPUwjnMd2UatBBCbyDy7qBXEku9MCIQCj4VUYtd+QYuWPI0zTo9vASGBFTZRrivgquHaSP6WcDDANBgkqhkiG9w0BAQsFAAOCAQEAGnhH5/m5ek1BbIi/oWg7aUvrYvhPA+4AhTQmwBACReBeXcBeMO/ORlXHk57zMOdz3mAwR5pgAEkVg1zmr9tnuSz6IG7/DMPHGv2Ame+vfak+REX4GMF9VdKFea6uk2c50I3umbM6RCM/dMLnp5WKLANydVwzgOjwOupYWO8tcOK268ahkprPTrNREeQJ8ggqRO+BnVCUIvHrvhlGH38IrPZtQcOQituge4WhKmdPu+LkAizDR8Y68/EZrK/z6g3lPy9+DgbzAYzJbzN9GARMZSQ8NTmApkQE++6X6E26kl/KqZKrep/A9NWEqQ3zeSlwqSNR7E0x0BxLE3xOsrqrP8AvAAMAAAAAAQEAAAAAAAAEUDI1NgAAABBSU0EtUEtDUzEtU0hBNTEyAANmCjImkVxP+7sgiYWmMt8FvcOXmlQiTNWFiWlrbpbqgwAAAAAAAAbKMIIGxjCCBa6gAwIBAgISA0mbQ46OUwQ+xhqL7r9E5X5vMA0GCSqGSIb3DQEBCwUAMDIxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQswCQYDVQQDEwJSMzAeFw0yMTExMjMwOTEzMzFaFw0yMjAyMjEwOTEzMzBaMBYxFDASBgNVBAMMCyouZ25vbWUub3JnMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAuIJgQl9J0EmRVwpn4TL5GYpK5d12SARjKKf9VWdZXUBcUx/YTtCvLsVrj54UmAEdO85KH+JzdOi1fyJXDEJD9baEBYKK8/j4MWKBXjeJ4DVBCxnFOf5MWKwSDFbG2veZmSG9NLzcRpnEsQYelnwC7i8DkPU5u0oquJrnZMEKdLENlzlT/Z1we2dzOozK3a465xM1pG9KGzWh1GFBpsjG5X9PRsvXRs+mmLeIQfol0CGU8kHCST4qJUZ5Iv9QODQmlSq+YqHtU00cTELvUhpCPpxxa7QllFxNVfqYiqA0tmBtS3iWhNey1TgYDtGv868GMV7zJozgwQEUpkuWEtfzYK1lik8k4U8MSY0ojFXQOUFkdfi2JPjNhAoRUOQ5C0d7hdIpKqB03kfP1sCvorSnpOXGPiAlx3lWt9lNfu/ywVIg+6jgJ9vo88AGLslQtu24vDxy4E6ajcCYuNSwSbjnk6nxDldF3lSYWbXNoj7Femi5Ke2lHWkxhcoknWFh7qkly6i8LiTqSsl3YrPOsHFHDtIh6b+rPgZQd+q5YaTPEorzrcvb6UIG9tgpAfPdRKIUeX8NRWHyuh6XW5/v7p02sbZGoyg3EeHar82bD/aWkOnRHidUa2L5N5OC0VZrNVSVk/vg08kvMhAfogtlKyyiL+CFRcgGUASDbbUrxOE7eq8CAwEAAaOCAvAwggLsMA4GA1UdDwEB/wQEAwIFoDAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwDAYDVR0TAQH/BAIwADAdBgNVHQ4EFgQUeeSocoKbolmCq9DiF7BZPFhiFTMwHwYDVR0jBBgwFoAUFC6zF7dYVsuuUAlA5h+vnYsUwsYwVQYIKwYBBQUHAQEESTBHMCEGCCsGAQUFBzABhhVodHRwOi8vcjMuby5sZW5jci5vcmcwIgYIKwYBBQUHMAKGFmh0dHA6Ly9yMy5pLmxlbmNyLm9yZy8wgcAGA1UdEQSBuDCBtYIgKi5idWd6aWxsYS1hdHRhY2htZW50cy5nbm9tZS5vcmeCEiouZ2l0bGFiLmdub21lLm9yZ4ILKi5nbm9tZS5vcmeCHiouZ25vbWUucGFnZXMuZ2l0bGFiLmdub21lLm9yZ4IOKi5pZC5nbm9tZS5vcmeCDyoubGFzLmdub21lLm9yZ4IVKi5vcGVuc2hpZnQuZ25vbWUub3JnghgqLnBhZ2VzLmdpdGxhYi5nbm9tZS5vcmcwTAYDVR0gBEUwQzAIBgZngQwBAgEwNwYLKwYBBAGC3xMBAQEwKDAmBggrBgEFBQcCARYaaHR0cDovL2Nwcy5sZXRzZW5jcnlwdC5vcmcwggEDBgorBgEEAdZ5AgQCBIH0BIHxAO8AdQBGpVXrdfqRIDC1oolp9PN9ESxBdL79SbiFq/L8cP5tRwAAAX1MSUqrAAAEAwBGMEQCIAhHN5TV+QLuVygwhnAYuUAipskXJGc5MH8Hsah+EZbaAiBT77hRFM1N4Ak/rZ580d92Q4lknWx4A50JHfTN7lz37AB2AN+lXqtogk8fbK3uuF9OPlrqzaISpGpejjsSwCBEXCpzAAABfUxJTG0AAAQDAEcwRQIgW35YvTWht0HOEQbuPUwjnMd2UatBBCbyDy7qBXEku9MCIQCj4VUYtd+QYuWPI0zTo9vASGBFTZRrivgquHaSP6WcDDANBgkqhkiG9w0BAQsFAAOCAQEAGnhH5/m5ek1BbIi/oWg7aUvrYvhPA+4AhTQmwBACReBeXcBeMO/ORlXHk57zMOdz3mAwR5pgAEkVg1zmr9tnuSz6IG7/DMPHGv2Ame+vfak+REX4GMF9VdKFea6uk2c50I3umbM6RCM/dMLnp5WKLANydVwzgOjwOupYWO8tcOK268ahkprPTrNREeQJ8ggqRO+BnVCUIvHrvhlGH38IrPZtQcOQituge4WhKmdPu+LkAizDR8Y68/EZrK/z6g3lPy9+DgbzAYzJbzN9GARMZSQ8NTmApkQE++6X6E26kl/KqZKrep/A9NWEqQ3zeSlwqSNR7E0x0BxLE3xOsrqrP2YKMiaRXE/7uyCJhaYy3wW9w5eaVCJM1YWJaWtuluqDAAAAAAAABRowggUWMIIC/qADAgECAhEAkSsISs8MGKdT9tYuJadfWjANBgkqhkiG9w0BAQsFADBPMQswCQYDVQQGEwJVUzEpMCcGA1UEChMgSW50ZXJuZXQgU2VjdXJpdHkgUmVzZWFyY2ggR3JvdXAxFTATBgNVBAMTDElTUkcgUm9vdCBYMTAeFw0yMDA5MDQwMDAwMDBaFw0yNTA5MTUxNjAwMDBaMDIxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQswCQYDVQQDEwJSMzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALsCFSjM9qCU0w8S7I1VksP4gvGZpnpCiKddJqq1K7nFTLGvjmv5dcij1w9HlBRVNVeMnqiiORn1gjxCqU5u9TvDLtuNwLBc81k45+3PafBaCxu+wJQkJYf6N3GzE+ccrOGb79vkO0VSRZapwVPONMhS7rWu7Y/eYHDipVSrtm0Ol6VANGsr07xm62Y0fPpri49XKZn4MBddunJv+4HFrdKGWD0Xx+cJu/Er94bcwdpxXdRG48ytJcGIvGBndWaz8Rj3olzmU/86iLZHpf8TGOqYCXc/nVP5zwHl9aZwFxSvY6T/mbOTndxTpwb+SIUdoWmuJXW7E8xSA/XtUaGL2xUCAwEAAaOCAQgwggEEMA4GA1UdDwEB/wQEAwIBhjAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwEwEgYDVR0TAQH/BAgwBgEB/wIBADAdBgNVHQ4EFgQUFC6zF7dYVsuuUAlA5h+vnYsUwsYwHwYDVR0jBBgwFoAUebRZ5nu25eQBc4AIiMgaWPbpm24wMgYIKwYBBQUHAQEEJjAkMCIGCCsGAQUFBzAChhZodHRwOi8veDEuaS5sZW5jci5vcmcvMCcGA1UdHwQgMB4wHKAaoBiGFmh0dHA6Ly94MS5jLmxlbmNyLm9yZy8wIgYDVR0gBBswGTAIBgZngQwBAgEwDQYLKwYBBAGC3xMBAQEwDQYJKoZIhvcNAQELBQADggIBAIXKTkc+o/eFRIW81Wd4sphjrXVNHpY9M2VyVC2BoOrD7fggv1/Mt3AAt2479l6U3uQgn6bvi7ID56K1FjyRzrTtOQLnfCWKR+Zlbj9G9NnwzpQr7lTOEryMJ0u4wZgvoq/NcZFKCLfIuCN7BC0I+QhXPoPZBDMKRyF4CYInwyrIm7nOXPJkyMC+ecBPjm1EDF6Suy73ixDh6B1EKdtZIO1juSH4EiaUk1egHWUEwQoirhANQ5ehGB9+4OCGN7Vasb0wv4duKyr/IU4bBcP1GJfwXqzDpbhq8C68OzO57kvezPzkr4QLhj/AVUM29mjhNhdqjpnR/6VApzS3wNBjOTU5dW7yunbIkwLpqUtsF84MAtm9gfuft2jUBmWzgj13U/iOeQOtCjEHdSpD2FWXcsQpDvfEXU7IrkaEMNfyhV8YoXm7515wiwfhhpPDuY/cYXElKq/f7SVQUmiLktzl1rXj2n3Qh2yEITGugvX7uavIiRc94UzlOA72vSu9loEU69XbPSCnflnT4vhY+Vu4SM3+XE8WKf4eVSOvyBGwjep8k5AXL/2soglHRj/w6bC3/yhNaDLWZ14eaaOTuPWdiy8L0lJDpm8yV2VNMoHfOFOFXX5dZinquN3klbXNtVYSQs3ETsYlOERQbezOAFUY/ulJZNROypectFvAc6iruEfCZgoyJpFcT/u7IImFpjLfBb3Dl5pUIkzVhYlpa26W6oMAAAAAAAAFbzCCBWswggNToAMCAQICEQCCEM+w0kDjWURj4LtjgosAMA0GCSqGSIb3DQEBCwUAME8xCzAJBgNVBAYTAlVTMSkwJwYDVQQKEyBJbnRlcm5ldCBTZWN1cml0eSBSZXNlYXJjaCBHcm91cDEVMBMGA1UEAxMMSVNSRyBSb290IFgxMB4XDTE1MDYwNDExMDQzOFoXDTM1MDYwNDExMDQzOFowTzELMAkGA1UEBhMCVVMxKTAnBgNVBAoTIEludGVybmV0IFNlY3VyaXR5IFJlc2VhcmNoIEdyb3VwMRUwEwYDVQQDEwxJU1JHIFJvb3QgWDEwggIiMA0GCSqGSIb3DQEBAQUAA4ICDwAwggIKAoICAQCt6CRz9BQ385ueK1coHIe+3LffOJCMbjzmV6B493XCov71am72AE8o295ohmxEk7axY/0UEmu/H9LqMZshftEzPLpI9d1537O4/xLxIZpLwYqGcWlKZmZsj348cL+tKSIG8+TA5oCu4kuPt5l+lAOf00eXfJlII1PoOK5PCm+DLtFJV4yAdLbaL9A4jXsDcCEbdfIwPPqPrt3aY6vrFk/CjhFLfs8L6P+1dy70sntK4EwSJQxwjQMpoOFTJOwT2e4ZvxCzSow/iaNhUd6shweU9GNx7C7ib1uYgeGJXDR5bHbvO5BieebbpJovJsXQEOEO3tkQjhb7t/eo98flAgeYjzYIlefiN5YNNnWe+w5ysR2bvAP5SQXYgd0FtCrWQemsAXaVCg/Y39W9Eh81LygXbNKYwagJZHduRze6zqxZXmidf3LWicUGQSk+WT7dJvUkyRGnWqNMQB9GoZm1pzpRboY7nn1ypxIFeFntPlF4FQsDj43QLwWyPntKHEtzBRL8xurgUBN8Q5N0s8p0544fAQjQMNRbcTa0B7rBMDBcSLeCO5imfWCKoqMpgsy6vYMEG6KDA0Gh1gXxG8K28Kh8hjtGqEgqiNx2mna/H2qlPRmP6zjzZN7IKw0KKP/32+IVQtQi0Cdd4Xn+GOdwiK1O5tmLOsbdJ1Fu/7xk9TNDTwIDAQABo0IwQDAOBgNVHQ8BAf8EBAMCAQYwDwYDVR0TAQH/BAUwAwEB/zAdBgNVHQ4EFgQUebRZ5nu25eQBc4AIiMgaWPbpm24wDQYJKoZIhvcNAQELBQADggIBAFUfWKm8sqhQ0Ayx2BppICcpCKxhdVyKbviC5Wkv1fZWS7m4cxBZ0yGXfudMcfuy0mCtOagL6hchVoXxUA5Z687gWem6yRXvhp2PhID25OmRkNwXm2IbRfBmldJ8b8LqO+8fz8vWrifxqbDIrv19fpr6IgTr/9l/6pErIrEXDo/yijRbWNj8AclUubgmzIqIM4lMLYQ8gt/ullcFuiy798S3x047gr4xyCJzc5LRwoCkOTkQMyOCTDyfhrJVmB2+KYaMIpue4ms7VzqCcE3cCceJywoHTWzoXY7J786rx7u1K05F1krQJszlcsoIaqWV4xWh96TtySxfpfv/rCgCLr7Xe7vjcXuQFtMHXkZTfDcHQozTxJac1Zm1KuCVGoBIrkw5B87MR6RSlSu6uPut0jNTfeUdTW3VobHHQm/mQCc1XKMotweN540zkOcjn/tQnHlsRtW0FbOWbn6bDJY6uFItP9Zb4fsIwoT+JKijidqsauEYKrGoQ2Fb0x/cO4128i3ojXXfFzNsPVP7e8tBX//cotBhOOGWuKxdizfXddUzwJkRrp1BwXJ1hL4CQUJfZyRIlNGbJ74HP7m4T4F0UeF6t+2dI+K+4NUoBBM8MQOe3Xpsj8YHGMZ/3keOPyieBAbPpVQ0d73siZvpF0PfW9tf/o4eV6LNQJ1+YiLa3hgnAAAAAQAAAAAAAQA= request-method GET request-Accept-Language en-US,en;q=0.5 response-head HTTP/1.1 200 OK
+Server: nginx
+Date: Mon, 27 Dec 2021 06:05:41 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 16951
+Strict-Transport-Security: max-age=14400; includeSubDomains
+X-XSS-Protection: 1; mode=block
+Vary: Cookie, Accept-Language
+Content-Language: en
+X-Content-Type-Options: nosniff, nosniff
+X-Frame-Options: DENY, SAMEORIGIN
+X-UA-Compatible: IE=Edge
+Cache-control: private
+ original-response-headers Server: nginx
+Date: Mon, 27 Dec 2021 06:05:41 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 16951
+Strict-Transport-Security: max-age=14400; includeSubDomains
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+X-Frame-Options: DENY
+Vary: Cookie, Accept-Language
+Content-Language: en
+Set-Cookie: csrftoken=j4W4zahF7eiYxIDOWvT00SQZ8HAotP2omb6e9oCWzHvX6gc7StBGorgbpA2O7SiH; expires=Mon, 26 Dec 2022 06:05:41 GMT; Max-Age=31449600; Path=/; SameSite=Lax; Secure
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-UA-Compatible: IE=Edge
+Set-Cookie: d426bed76e2c43d2af1c13cd7be2e892=4a562e9d433c72571d6b7432429590a5; path=/; HttpOnly; Secure; SameSite=None
+Cache-control: private
+ ctid 1 uncompressed-len 0 net-response-time-onstart 1506 net-response-time-onstop 1582   B7

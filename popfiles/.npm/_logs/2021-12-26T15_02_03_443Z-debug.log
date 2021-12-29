@@ -1,0 +1,67 @@
+0 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', '-g', 'node@lts' ]
+1 info using npm@7.5.2
+2 info using node@v12.22.5
+3 timing config:load:defaults Completed in 2ms
+4 timing config:load:file:/usr/share/nodejs/npm/npmrc Completed in 3ms
+5 timing config:load:builtin Completed in 3ms
+6 timing config:load:cli Completed in 3ms
+7 timing config:load:env Completed in 1ms
+8 timing config:load:project Completed in 1ms
+9 timing config:load:file:/home/shaurya/.npmrc Completed in 1ms
+10 timing config:load:user Completed in 1ms
+11 timing config:load:file:/etc/npmrc Completed in 0ms
+12 timing config:load:global Completed in 0ms
+13 timing config:load:cafile Completed in 0ms
+14 timing config:load:validate Completed in 1ms
+15 timing config:load:setUserAgent Completed in 0ms
+16 timing config:load:setEnvs Completed in 1ms
+17 timing config:load Completed in 13ms
+18 verbose npm-session 0e2b1c14341eae9c
+19 timing npm:load Completed in 26ms
+20 timing arborist:ctor Completed in 1ms
+21 timing idealTree:init Completed in 12ms
+22 http fetch GET 200 https://registry.npmjs.org/node 28ms (from cache)
+23 timing idealTree:userRequests Completed in 43ms
+24 silly idealTree buildDeps
+25 silly fetch manifest node@16.13.1
+26 silly placeDep ROOT node@16.13.1 OK for:  want: 16.13.1
+27 silly fetch manifest node-bin-setup@^1.0.0
+28 http fetch GET 200 https://registry.npmjs.org/node-bin-setup 1501ms
+29 timing idealTree:#root Completed in 1515ms
+30 silly placeDep node_modules/node node-bin-setup@1.0.6 OK for: node@16.13.1 want: ^1.0.0
+31 timing idealTree:node_modules/node Completed in 2ms
+32 timing idealTree:node_modules/node/node_modules/node-bin-setup Completed in 0ms
+33 timing idealTree:buildDeps Completed in 1520ms
+34 timing idealTree:fixDepFlags Completed in 1ms
+35 timing idealTree Completed in 1579ms
+36 timing reify:loadTrees Completed in 1581ms
+37 timing reify:diffTrees Completed in 2ms
+38 silly reify moves {}
+39 timing reify:retireShallow Completed in 0ms
+40 timing reify:rollback:createSparse Completed in 0ms
+41 timing reify:rollback:retireShallow Completed in 0ms
+42 timing command:install Completed in 1710ms
+43 verbose stack Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules'
+44 verbose cwd /home/shaurya
+45 verbose Linux 5.15.8-76051508-generic
+46 verbose argv "/usr/bin/node" "/usr/bin/npm" "install" "-g" "node@lts"
+47 verbose node v12.22.5
+48 verbose npm  v7.5.2
+49 error code EACCES
+50 error syscall mkdir
+51 error path /usr/local/lib/node_modules
+52 error errno -13
+53 error Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules'
+53 error  [Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules'] {
+53 error   errno: -13,
+53 error   code: 'EACCES',
+53 error   syscall: 'mkdir',
+53 error   path: '/usr/local/lib/node_modules'
+53 error }
+54 error The operation was rejected by your operating system.
+54 error It is likely you do not have the permissions to access this file as the current user
+54 error
+54 error If you believe this might be a permissions issue, please double-check the
+54 error permissions of the file and its containing directories, or try running
+54 error the command again as root/Administrator.
+55 verbose exit -13

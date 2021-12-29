@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<application-state>
+  <context id="">
+    <application id="org.gnome.Nautilus.desktop" score="15.8671875" last-seen="1640762595"/>
+    <application id="io.elementary.appcenter.desktop" score="4681.1729278564453" last-seen="1640520761"/>
+    <application id="org.gnome.Totem.desktop" score="0.28125" last-seen="1640761711"/>
+    <application id="firefox.desktop" score="4793506.1629943848" last-seen="1640762352"/>
+    <application id="org.gnome.Terminal.desktop" score="33.0985107421875" last-seen="1640762629"/>
+    <application id="code.desktop" score="10.2109375" last-seen="1640762460"/>
+    <application id="libreoffice-writer.desktop" score="0.296875" last-seen="1640587985"/>
+    <application id="gnome-control-center.desktop" score="0.0235595703125" last-seen="1640779124"/>
+    <application id="gnome-wifi-panel.desktop" score="0" last-seen="0"/>
+    <application id="gnome-system-monitor.desktop" score="0.2109375" last-seen="1640587668"/>
+  </context>
+</application-state>

@@ -1,0 +1,895 @@
+@import url("switch.8e6a6369b8f7.css");
+@import url("jquery.raty.dfd67e52d73e.css");
+@import url("jquery.colorbox.b775d4043981.css");
+
+/* -> Action Button */
+
+span.action_button {
+    font-weight: bold;
+    margin: 10px;
+}
+
+/* User Profile */
+/* ==================================================================== */
+
+.profile ul {
+    padding-left: 0px;
+}
+
+/* Unreviewed Extension Counter */
+/* ==================================================================== */
+
+div.nav.navbar-nav a.unreviewed_counter,
+div.navbar-header a.unreviewed_counter {
+    background-color: #3968A1;
+    color: #ffffff;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 0 5px;
+    border-radius: 4px;
+    margin-top: 13px;
+    margin-right: 10px;
+    border: 1px solid #195EB1;
+}
+
+div.nav.navbar-nav a.unreviewed_counter:hover,
+div.navbar-header a.unreviewed_counter:hover {
+    background-color: #195EB1;
+}
+
+/* Login Area */
+/* ==================================================================== */
+
+.auth_form  {
+    padding: 0;
+    margin: 0;
+}
+
+.auth_form h3 {
+    color: #0489B7;
+}
+
+.auth_form li, .auth_form ol {
+    list-style-type: none;
+}
+
+.auth_form ul {
+    padding: 0px;
+}
+
+.auth_form ul > li {
+    margin-bottom: 15px;
+}
+
+.auth_form .helptext {
+    display: block;
+}
+
+.auth_form label {
+    display: inline-block;
+    line-height: 1.8;
+    vertical-align: top;
+}
+
+.auth_form input {
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+}
+.auth_form input:focus {
+    border-color: #66afe9;
+    outline: 0;
+}
+
+
+/* Paginator, Filtering and Sorting UI */
+/* ==================================================================== */
+
+.paginator {
+    display: block;
+    background-color: #eeeeec;
+    border-radius: 3px;
+    border: 1px solid #babdb6;
+    padding: 3px;
+}
+
+.paginator.loading {
+    background-image: url("../images/spinner.7b9776076d5f.gif");
+    background-repeat: no-repeat;
+    background-position: 8px 8px;
+}
+
+.paginator .number {
+    display: inline-block;
+    min-width: 1.5em;
+    text-align: center;
+    margin: 0 4px;
+    border-radius: 4px;
+}
+
+.paginator .number,
+.fsui-dropdown-link {
+    border-radius: 4px;
+    cursor: pointer;
+
+    text-decoration: none;
+    color: #204a87;
+
+    -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    -moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    -ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    -o-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+.fsui-dropdown-link {
+    padding: 0.2em 0.4em;
+    margin: 0 0.6em;
+}
+
+.paginator .number:hover,
+.fsui-dropdown-link:hover {
+    background-color: #f4f4f4;
+}
+
+.paginator .number.current,
+.fsui-dropdown-link.selected {
+    background-color: #ffffff;
+    text-decoration: none;
+    color: #222;
+}
+
+.paginator .number.current {
+    border: 1px solid rgb(200, 200, 200);
+    cursor: default;
+}
+
+.paginator .number:first-child {
+    margin-left: 0;
+}
+
+.paginator .number:last-child {
+    margin-right: 0;
+}
+
+.paginator-content {
+    text-align: center;
+}
+
+.fsui {
+    float: right;
+    font-size: 0.8em;
+    position: relative;
+    top: -1.9em;
+}
+
+.fsui-dropdown-link-arrow {
+    position: relative;
+    margin-left: .25em;
+    top: -.25em;
+}
+
+.fsui-dropdown {
+    background-color: #fff;
+    position: absolute;
+    margin-top: -4px;
+    border-radius: 4px 0 4px 4px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+    z-index: 999;
+}
+
+.fsui-dropdown ul {
+    margin: 0;
+    padding: 0;
+}
+
+.fsui-dropdown-item {
+    text-decoration: none;
+    color: #444;
+    list-style-position: inside;
+    list-style-type: none;
+    cursor: pointer;
+    margin-left: 0;
+    padding: .2em 1em .2em 2em;
+}
+
+.fsui-dropdown-item.selected {
+    list-style-type: disc;
+    padding-left: 1em;
+}
+
+.fsui-dropdown-item:hover {
+    background-color: #e5e5e0;
+}
+
+
+/* Extension Views */
+/* ==================================================================== */
+
+#extensions-list {
+    position: relative;
+    padding-left: 0;
+}
+
+ul.extensions {
+    margin-top: 0;
+    padding-left: 0;
+}
+
+li.extension {
+    list-style-type: none;
+    list-style-position: inside;
+    margin-left: 0px;
+}
+
+li.extension, #local_extensions div.extension, #shell_settings div.setting {
+    border-bottom: 1px solid #ccc;
+    border-bottom-color: rgba(0, 0, 0, 0.2);
+}
+
+li.extension:last-child,
+#local_extensions div.extension:last-child,
+#shell_settings div.setting:last-child {
+    border-bottom: 0;
+}
+
+.extension {
+    padding: 0;
+    margin-top: 10px;
+}
+
+.extension.out-of-date > * {
+    opacity: 0.5;
+}
+
+.extension.out-of-date .uninstall-button,
+.extension.out-of-date .upgrade-button {
+    opacity: 1.0;
+}
+
+.extension .extension-name a, .setting .setting-name a {
+    color: #000;
+    text-decoration: none;
+}
+
+.extension .extension-name, .setting .setting-name {
+    display: inline-block;
+    line-height: 32px;
+    margin: 0;
+    font-size: 1.3em;
+}
+
+.extension .extension-header {
+    float: left;
+}
+
+.extension .extension-header .extension-name {
+    margin-left: 0;
+}
+
+.extension .extension-name a:hover {
+    color: #445;
+}
+
+.extension .system-extension {
+    margin: 0;
+    margin-left: 36px;
+    font-size: 0.8em;
+    cursor: help;
+    display: none;
+}
+
+.extension.system .system-extension {
+    display: block;
+}
+
+.extension .author, .extension .author a {
+    color: #888;
+}
+
+.extension .author a:hover {
+    color: #666;
+}
+
+.extension .extension-download select {
+    display: inline;
+    width: auto;
+}
+
+.extension .extension-download .extension-version {
+    display: none;
+}
+
+.extension .extension-download.shell-selected .extension-version {
+    display: inline;
+}
+
+/* Upgrade, Configure, Uninstall buttons */
+
+.extension .controls, .setting .controls {
+    float: right;
+    width: 180px;
+}
+
+.extension .controls * {
+    box-sizing: content-box;
+}
+
+.extension.single-page .extension-details {
+    /* 32px icon + 4px icon margin */
+    padding-left: 36px;
+}
+
+.extension.single-page .description {
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.extension.single-page .controls {
+    width: auto;
+    margin-right: 32px;
+}
+
+.extension .extra-buttons {
+    float: left;
+    margin-top: 4px;
+}
+
+.extension .configure-button,
+.extension .upgrade-button,
+.extension .uninstall-button {
+    display: none;
+}
+
+.extension.configurable .configure-button,
+.extension.upgradable .upgrade-button,
+.extension.installed .uninstall-button {
+    float: left;
+
+    display: block;
+    height: 24px;
+    width: 24px;
+
+    font-weight: bold;
+    border-style: solid;
+    border-width: 2px;
+    text-align: center;
+    margin-right: 3px;
+
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.extension.installed.system .uninstall-button {
+    display: none;
+}
+
+.extension.configurable .configure-button {
+    background-color: #4a90d9;
+    background-image: url("../images/configure-extension.2792420d2ac7.png");
+    border-color: #3465a4;
+}
+
+.extension.configurable .configure-button:hover {
+    background-color: #5ba1ff;
+    border-color: #5485c4;
+}
+
+.extension.upgradable .upgrade-button {
+    background-color: #60b94a;
+    background-image: url("../images/upgrade.f9e4a20cde19.png");
+    border-color: #559424;
+}
+
+.extension.upgradable .upgrade-button:hover {
+    background-color: #71ca5b;
+    border-color: #75a444;
+}
+
+.extension .uninstall-button {
+    background-color: #de2900;
+    background-image: url("../images/uninstall-extension.7250945dc51c.png");
+    border-color: #bf2000;
+}
+
+.extension .uninstall-button:hover {
+    background-color: #f22c00;
+    border-color: #d92400;
+}
+
+/* Extension switch */
+
+.extension ._gnome-switch {
+    margin-top: 4px;
+    margin-right: 0.5em;
+    float: left;
+}
+
+._gnome-switch.customized .error {
+    border-color: #a43465;
+    background-color: #d94a60;
+}
+
+.extension .description {
+    margin: 0.5em 32px 0.5em 36px;
+    font-size: 1.2em;
+    overflow: auto;
+    white-space: pre-line;
+}
+
+.extension textarea {
+    /* Sync with body selector at the top of the file, please.
+     * textareas don't inherit body fonts for whatever reason. */
+    font-family: Cantarell, 'Droid Sans', Ubuntu, 'DejaVu Sans', Arial, sans-serif;
+}
+
+.extension textarea, .extension input {
+    line-height: 1.6;
+    font-size: 100%;
+}
+
+/* Screenshots and Icons */
+
+.extension .screenshot {
+    background: #ffffff;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    font-weight: bold;
+}
+
+.extension .screenshot img {
+    max-width: 300px;
+    max-height: 200px;
+    -ms-interpolation-mode: bicubic;
+    image-rendering: optimizeQuality;
+}
+
+.extension .icon, .extension .icon img {
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    vertical-align: bottom;
+    margin-right: 4px;
+}
+
+.extension span.plugin-unknown {
+    background-image: url("../images/plugin-unknown.c5f2c45659af.png")
+}
+
+.extension .screenshot label.upload {
+    display: block;
+}
+
+@media screen and (max-width: 767px) {
+    .extension .screenshot {
+        text-align: center;
+    }
+}
+
+/* Uploader */
+
+.extension .upload {
+    cursor: pointer;
+}
+
+.extension .upload input {
+    display: none;
+}
+
+.extension .screenshot .upload {
+    text-align: center;
+}
+
+/* Various other things */
+
+.extension dt, .extension dd {
+    font-size: 1em;
+    display: inline-block;
+    padding: 0 1em 0 0;
+}
+
+.extension table {
+    width: 100%;
+}
+
+.extension th {
+    text-align: left;
+}
+
+.extension_status_toggle {
+    display: none;
+}
+
+.extension_status_toggle.visible {
+    display: table-cell;
+}
+
+.extension-status.rejected, option.reject {
+    color: #c00 !important;
+    font-weight: bold;
+}
+
+.extension-status.active, option.approve {
+    color: #0a0 !important;
+    font-weight: bold;
+}
+
+.version {
+    color: #6a6a6a;
+    font-size: smaller;
+}
+
+/* Error Reports */
+/* ==================================================================== */
+
+#error_report input[name=can_contact] {
+    margin-left: 1em;
+}
+
+#error_report textarea,
+#error_report div {
+    display: block;
+    width: 100%;
+    resize: vertical;
+    min-height: 80px;
+}
+
+#error_report textarea {
+    height: 300px;
+}
+
+#error_report div {
+    border: 1px solid #999;
+    border-radius: 4px;
+    background-color: white;
+    color: black;
+    font-family: monospace;
+    white-space: pre;
+}
+
+#error_report .email {
+    display: block;
+    margin: .2em auto;
+
+    background-color: white;
+    color: #333;
+    font-family: monospace;
+    font-size: 1.2em;
+}
+
+/* Comments */
+/* ==================================================================== */
+
+#comments .loading {
+    background-image: url("../images/spinner.7b9776076d5f.gif");
+    background-repeat: no-repeat;
+    padding-left: 24px;
+    margin-left: 8px;
+    line-height: 16px;
+}
+
+#comments .show-all {
+    font-weight: bold;
+    cursor: pointer;
+    color: #204a87;
+}
+
+#comments .show-all:hover {
+    color: #3465a4;
+}
+
+#comments .show-all.loading {
+    color: #eeeeec;
+    cursor: default;
+}
+
+.comment {
+    margin-left: 90px;
+}
+
+.comment .gravatar {
+    position: absolute;
+    margin-left: -90px;
+}
+
+.comment .rating-author {
+    overflow: hidden;
+}
+
+.comment .rating {
+    margin-right: 6px;
+    float: right;
+}
+
+.comment .comment-author {
+    font-weight: bold;
+}
+
+.comment time {
+    color: #999;
+}
+
+.comment .extension-creator-badge {
+    font-weight: bold;
+    background-color: rgb(255,255,200);
+    position: absolute;
+    margin-left: -90px;
+    padding: 0.2em;
+    z-index: 999;
+}
+
+.comments-holder {
+    margin-top: 20px;
+}
+
+.preview blockquote {
+    font-size: inherit;
+}
+
+/* Errors & Messages */
+/* ==================================================================== */
+
+p.message {
+    min-height: 42px;
+    display: block;
+    padding: .5em;
+    margin: 0 auto;
+    padding-left: 72px;
+    background-repeat: no-repeat;
+    background-position: 16px center;
+    border: 1px solid rgba(33, 33, 33, 0.3);
+    border-top: 0;
+    box-sizing: content-box;
+}
+
+p.message:first-child {
+    border-radius: 6px 6px 0 0;
+    border-top: 1px solid rgba(33, 33, 33, 0.3);
+}
+
+p.message:last-child {
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+p.message.error {
+    background-color: #fcc;
+    background-image: url("../images/error.42b2b2eadda9.png");
+}
+
+p.message.info {
+    background-color: #ccf;
+    background-image: url("../images/info.b4acc242db50.png");
+}
+
+p.message.warning {
+    background-color: #ebde71;
+    background-image: url("../images/warning.d6749682c04d.png");
+}
+
+#message_container {
+    margin-bottom: 1em;
+}
+
+.editable {
+    background: url("../images/edit.37d1f0720c6d.svg") right rgba(255, 255, 200, 0.8) no-repeat;
+    padding-right: 20px;
+}
+
+.errorlist {
+    color: #a94442;
+}
+
+/* Forms */
+/* ==================================================================== */
+
+input, textarea, input[type=submit], button {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input:focus,
+textarea:focus {
+    border-color: #66afe9;
+    outline: 0;
+}
+
+/* Opinion form */
+/* ==================================================================== */
+
+#opinion_form {
+    overflow: hidden;
+}
+
+#opinion_form label {
+    display: block;
+}
+
+#opinion_form p input,
+#opinion_form p textarea {
+    width: 100%;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 3px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#opinion_form p input:focus,
+#opinion_form p textarea:focus {
+    border-color: #66afe9;
+    outline: 0;
+}
+
+#opinion_form p textarea {
+    resize: vertical;
+    min-height: 150px;
+}
+
+#opinion_form input[type=submit] {
+    height: 32px;
+    float: right;
+}
+
+#opinion_form .comment_choice {
+    display: block;
+    font-size: 16pt;
+    margin-bottom: 30px;
+}
+
+#opinion_form .comment_choice a {
+    text-decoration: none;
+}
+
+#opinion_form .unauthenticated {
+    background: #eeeeec;
+    border: 1px solid #babdb6;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    clear: both;
+    padding: 20px;
+
+    /* Extra margin on the bottom, left and right is for
+     * the shadow -- we use overflow: hidden on the parent
+     * to establish a BFC, so it will clip the shadow. */
+    margin: 20px 4px 4px 4px;
+}
+
+
+/* Review List */
+/* ==================================================================== */
+
+.review {
+    background: #eeeeec;
+    border: 1px solid #babdb6;
+    border-radius: 8px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.review a {
+    text-decoration: none;
+}
+
+.review a .extension-name {
+    font-size: 1.4em;
+    color: #000;
+}
+
+.review a:hover .extension-name {
+    color: #445;
+}
+
+.review abbr, .review .extension-version {
+    color: #666;
+    font-size: smaller;
+}
+
+.review abbr {
+    float: right;
+}
+
+.review blockquote {
+    padding: .5em;
+    white-space: pre;
+    white-space: pre-wrap;
+    border: 1px solid #BABDB6;
+    border-left: 1em solid #A5A5AF;
+    border-radius: 2px 2px 2px 2px;
+}
+
+.review blockquote.empty {
+    color: #888;
+}
+
+
+/* Instruction steps */
+/* ==================================================================== */
+
+.step {
+    background-color: #EEEEEC;
+    border: 1px solid #aaa;
+    padding: 1em;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+
+/* Super fancy expandy headers that no longer need to die */
+/* ==================================================================== */
+
+.expandy_header {
+    cursor: pointer;
+    padding-left: 0.5em;
+    margin-bottom: 0;
+    margin-top: 10px;
+    clear: both;
+}
+
+.expandy_header:before {
+    content: "";
+    display: block;
+    float: left;
+    border-color: transparent;
+    border-left-color: #0489B7;
+    border-style: solid;
+    border-width: .4em;
+    margin-top: .4em;
+    width: 0;
+
+    transition: transform 0.4s ease-in-out;
+    transform-origin: 25% 50%;
+}
+
+.expandy_header.expanded:before {
+    transform: rotate(90deg);
+}
+
+/* Settings */
+/* ==================================================================== */
+
+.setting .description {
+    margin: 0.5em 32px 0.5em 0em;
+    font-size: 1.2em;
+    overflow: auto;
+    white-space: pre-line;
+}
+
+#shell_settings .form-horizontal .form-group label {
+	text-align: left;
+}
+
+.v6-wip
+{
+	display: none;
+}
+µ]S43H      a…Wµa…W∂C« uaÕL4   k    O^partitionKey=%28https%2Cgnome.org%29,:https://extensions.gnome.org/static/css/sweettooth.f8aa30c157ff.css necko:classified 1 strongly-framed 1 security-info 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 request-method GET response-head HTTP/1.1 200 OK
+Server: nginx
+Date: Mon, 27 Dec 2021 06:05:41 GMT
+Content-Type: text/css
+Content-Length: 16310
+Last-Modified: Tue, 21 Dec 2021 13:08:33 GMT
+ETag: "61c1d1d1-3fb6"
+Expires: Thu, 30 Dec 2021 06:05:41 GMT
+Cache-Control: max-age=259200
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-UA-Compatible: IE=Edge
+Accept-Ranges: bytes
+ original-response-headers Server: nginx
+Date: Mon, 27 Dec 2021 06:05:41 GMT
+Content-Type: text/css
+Content-Length: 16310
+Last-Modified: Tue, 21 Dec 2021 13:08:33 GMT
+ETag: "61c1d1d1-3fb6"
+Expires: Thu, 30 Dec 2021 06:05:41 GMT
+Cache-Control: max-age=259200
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-UA-Compatible: IE=Edge
+Accept-Ranges: bytes
+ ctid 5 uncompressed-len 0 net-response-time-onstart 569 net-response-time-onstop 570   ?∂

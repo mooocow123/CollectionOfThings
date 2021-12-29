@@ -1,0 +1,20 @@
+[2021-12-26 17:46:55.445] [sharedprocess] [info] Starting worker process with pid 20089 (type: watcherServiceParcelSharedProcess, window: 1).
+[2021-12-26 17:47:46.784] [sharedprocess] [info] Installing extension: ms-python.python
+[2021-12-26 17:47:51.584] [sharedprocess] [info] Installing extension: ms-toolsai.jupyter
+[2021-12-26 17:47:51.584] [sharedprocess] [info] Installing extension: ms-python.vscode-pylance
+[2021-12-26 17:47:51.584] [sharedprocess] [info] Extension is already requested to install ms-python.vscode-pylance
+[2021-12-26 17:48:02.315] [sharedprocess] [info] Downloaded extension: ms-toolsai.jupyter /home/shaurya/.config/Code/CachedExtensionVSIXs/ms-toolsai.jupyter-2021.11.1001550889
+[2021-12-26 17:48:02.528] [sharedprocess] [info] Downloaded extension: ms-python.python /home/shaurya/.config/Code/CachedExtensionVSIXs/ms-python.python-2021.12.1559732655
+[2021-12-26 17:48:04.329] [sharedprocess] [info] Extracted extension to /home/shaurya/.vscode/extensions/.ed0ebdc4-4f2d-4495-8cd0-139be1a4e405: ms-toolsai.jupyter
+[2021-12-26 17:48:04.367] [sharedprocess] [info] Renamed to /home/shaurya/.vscode/extensions/ms-toolsai.jupyter-2021.11.1001550889
+[2021-12-26 17:48:04.379] [sharedprocess] [info] Extracting completed. ms-toolsai.jupyter
+[2021-12-26 17:48:06.774] [sharedprocess] [info] Extracted extension to /home/shaurya/.vscode/extensions/.b980870e-a30f-4282-90b9-619086d15365: ms-python.python
+[2021-12-26 17:48:06.823] [sharedprocess] [info] Renamed to /home/shaurya/.vscode/extensions/ms-python.python-2021.12.1559732655
+[2021-12-26 17:48:06.827] [sharedprocess] [info] Extracting completed. ms-python.python
+[2021-12-26 17:48:14.284] [sharedprocess] [info] Downloaded extension: ms-python.vscode-pylance /home/shaurya/.config/Code/CachedExtensionVSIXs/ms-python.vscode-pylance-2021.12.2
+[2021-12-26 17:48:19.300] [sharedprocess] [info] Extracted extension to /home/shaurya/.vscode/extensions/.06427eb0-f3f5-4f55-9270-e8e1756c5f63: ms-python.vscode-pylance
+[2021-12-26 17:48:19.359] [sharedprocess] [info] Renamed to /home/shaurya/.vscode/extensions/ms-python.vscode-pylance-2021.12.2
+[2021-12-26 17:48:19.364] [sharedprocess] [info] Extracting completed. ms-python.vscode-pylance
+[2021-12-26 17:48:19.383] [sharedprocess] [info] Extension installed successfully: ms-toolsai.jupyter
+[2021-12-26 17:48:19.384] [sharedprocess] [info] Extension installed successfully: ms-python.python
+[2021-12-26 17:48:19.385] [sharedprocess] [info] Extension installed successfully: ms-python.vscode-pylance

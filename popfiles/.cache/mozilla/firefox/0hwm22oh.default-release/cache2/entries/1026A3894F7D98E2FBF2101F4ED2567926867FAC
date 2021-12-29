@@ -1,0 +1,320 @@
+<html>
+		<head><style>body { margin:0; padding:0px; background-color: #fff; }</style>
+		<script>
+		(function() {
+			let frame = window;
+			let cmpFrame;
+		  
+			const cmpCallbacks = {};		  
+			while(frame) {
+			  try {
+				if (frame.frames['__tcfapiLocator']) {
+				  cmpFrame = frame;
+				  break;
+				}
+			  } catch(ignore) {}
+		  
+			  if (frame === window.top) {
+				break;		  
+			  }
+		  
+			  frame = frame.parent;
+			}
+		  
+			window.__tcfapi = function(cmd, version, callback, arg) {
+			  if (!cmpFrame) {
+				callback({msg: 'CMP not found'}, false);
+			  } else {
+				const callId = Math.random() + '';
+				const msg = {
+				  __tcfapiCall: {
+					command: cmd,
+					parameter: arg,
+					version: version,
+					callId: callId,
+				  },
+				};
+		  
+				cmpCallbacks[callId] = callback;
+				cmpFrame.postMessage(msg, '*');
+			  }
+			};
+		  
+			function postMessageHandler(event) {
+			  let json = {};
+
+			  try {
+				json = typeof event.data === 'string' ? JSON.parse(event.data) : event.data;
+			  } catch (ignore) {}
+		  
+			  const payload = json.__tcfapiReturn;
+		  
+			  if (payload) {
+				if (typeof cmpCallbacks[payload.callId] === 'function') {
+				  cmpCallbacks[payload.callId](payload.returnValue, payload.success);
+				  cmpCallbacks[payload.callId] = null;
+				}
+			  }
+			}
+		  
+			window.addEventListener('message', postMessageHandler, false);
+		  
+		  }());
+		</script>
+		</head>
+		<body leftMargin="0" topMargin="0" marginwidth="0" marginheight="0" ondragstart="return false;" ondrop="return false;"><script>
+    (function(id) {
+        if (document.getElementById(id)) return;
+        var pbjsEl = document.createElement('script'); pbjsEl.type = 'text/javascript'; pbjsEl.id = id;
+        pbjsEl.async = true; var isHttps = 'https:' === document.location.protocol;
+        pbjsEl.src = 'https://hb.adpone.com/prebid_v4_38.js';
+        var pbjsTargetEl = document.getElementsByTagName('head')[0];
+        pbjsTargetEl.insertBefore(pbjsEl, pbjsTargetEl.firstChild);
+    })('prebid');
+    (function(){
+        const cmpRequired = parseInt('0');
+        var passbackTagHtml = '';
+        function unencodeHtmlContent(escapedHtml) {
+            var elem = document.createElement('div');
+            elem.innerHTML = escapedHtml;
+            var result = '';
+            for (var i = 0; i < elem.childNodes.length; ++i) {
+                result = result + elem.childNodes[i].nodeValue;
+            }
+            return result;
+        }
+        function getPlacementScriptElement(){
+            if (document.currentScript)
+                return document.currentScript;
+            else {
+                var scripts = document.getElementsByTagName('script');
+                var currentScript_2 = scripts[scripts.length - 1];
+                return currentScript_2;
+            }
+        }
+        function getQueryString(script){
+            var queryString = script.src.replace(/^[^\?]+\??/,'');
+            return '?'+queryString;
+        }
+        function getParameterByName(name, url) {
+            if (!url) url = window.location.href;
+            name = name.replace(/[\[\]]/g, '\$&');
+            var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+                results = regex.exec(url);
+            if (!results) return null;
+            if (!results[2]) return '';
+            try {
+                return decodeURIComponent(results[2].replace(/\+/g, ' '));
+            }catch(err){
+                return null;
+            }
+        }
+        var plmntScriptElement = getPlacementScriptElement();
+        var _id = new Date().getTime();
+        var _placementFrmId = 'postbid_if_' + _id;
+        var adUnitSizes = [[300,250]];
+        var adUnitBids = [
+        {
+                bidder: "criteo",
+                params: {
+                        zoneId: "1491572"
+                }
+        },
+        {
+                bidder: "smartadserver",
+                params: {
+                        domain: "https://prg.smartadserver.com",
+                        siteId: "422450",
+                        pageId: "1399137",
+                        formatId: "71867"
+                }
+        },
+        {
+                bidder: "appnexus",
+                params: {
+                        placementId: "21853903"
+                }
+        },
+        {
+                bidder: "adform",
+                params: {
+                        mid: "1067632"
+                }
+        },
+        {
+                bidder: "openx",
+                params: {
+                        unit: "544107769",
+                        delDomain: "adpone-d.openx.net"
+                }
+        },
+        {
+                bidder: "pubmatic",
+                params: {
+                        publisherId: "156383",
+                        adSlot: "linuxize.com_300x250_ATF",
+                        kadpageurl: "linuxize.com"
+                }
+        },
+        {
+                bidder: "ix",
+                params: {
+                        siteId: "710446",
+                        size: [
+                                300,
+                                250
+                        ]
+                }
+        },
+        {
+                bidder: "sovrn",
+                params: {
+                        tagid: "942525"
+                }
+        },
+        {
+                bidder: "between",
+                params: {
+                        w: "300",
+                        h: "250",
+                        s: "4114297"
+                }
+        }
+];
+        function getPlacementFrameId (){
+            return _placementFrmId;
+        }
+        function createPlacementIframe(id){
+            var frmEl = document.createElement('iframe');
+            frmEl.setAttribute('id', getPlacementFrameId());
+            frmEl.frameBorder = '0';
+            frmEl.scrolling = 'no';
+            frmEl.marginWidth = '0';
+            frmEl.marginHeight = '0';
+            frmEl.TOPMARGIN = '0';
+            frmEl.LEFTMARGIN = '0';
+            frmEl.ALLOWTRANSPARENCY = 'true';
+            frmEl.width = '0';
+            frmEl.height = '0';
+            return frmEl;
+        }
+        var plmntFrame = createPlacementIframe();
+        if (plmntScriptElement){
+            plmntScriptElement.parentNode.insertBefore(plmntFrame, plmntScriptElement);
+        }else {
+            return 0;
+        }
+        window.pbjs = window.pbjs || {};
+        pbjs.que = pbjs.que || [];
+        var adUnitCodeName = 'adpn-adtag-'  + _id;
+        pbjs.que.push(function() {
+            var adUnits = [{
+                code: adUnitCodeName,
+                sizes: adUnitSizes,
+                mediaTypes: {
+                    banner: {
+                        sizes: adUnitSizes
+                    }
+                },
+                bids: adUnitBids
+            }];
+            if (cmpRequired) {
+                pbjs.setConfig({
+                    consentManagement: {
+                        cmpApi: 'iab',
+                        timeout: 8000,
+                        allowAuctionWithoutConsent: true
+                    },
+                })
+            }
+            pbjs.setConfig({
+                userSync: {
+                    iframeEnabled: true,
+                    filterSettings: {
+                        iframe: {
+                            bidders: '*',
+                            filter: 'include'
+                        }
+                    },
+                    userIds: [{
+                        name: 'id5Id',
+                        params: {
+                            partner: 546,
+                        },
+                        storage: {
+                            type: 'html5',
+                            name: 'id5id',
+                            expires: 90,
+                            refreshInSeconds: 8 * 3600
+                        }
+                    }],
+                    auctionDelay: 50
+                },
+                schain: {
+                    validation: "strict",
+                    config: {
+                        ver:"1.0",
+                        complete: 1,
+                        nodes: [
+                            {
+                                "asi":"adpone.com",
+                                "sid":"75723e830d4f28015d44",
+                                "hp":1
+                            }
+                        ]
+                    }
+                }
+            });
+            pbjs.bidderSettings = {
+                smartadserver: {
+                    bidCpmAdjustment : function(bidCpm) {
+                        return bidCpm * 0.88 ;
+                    }
+                }
+            };
+            pbjs.addAdUnits(adUnits);
+            pbjs.requestBids({
+                adUnitCodes: [adUnitCodeName],
+                timeout: 2000,
+                bidsBackHandler: function() {
+                    var iframe = document.getElementById(getPlacementFrameId());
+                    var iframeDoc = iframe.contentWindow.document;
+                    var params = pbjs.getAdserverTargetingForAdUnitCode(adUnitCodeName);
+                    if(params && params['hb_adid']){
+                        pbjs.renderAd(iframeDoc, params['hb_adid']);
+                    } else {
+                        if (passbackTagHtml) {
+                            iframe.width = adUnitSizes[0][0];
+                            iframe.height = adUnitSizes[0][1];
+                            iframeDoc.write(unencodeHtmlContent(passbackTagHtml));
+                            iframeDoc.close();
+                        } else {
+                            if (iframe) {
+                                iframe.parentNode.removeChild(iframe);
+                            }
+                        }
+                    }
+                }
+            });
+        });
+    })();
+    var gd = '2021-9-23 9:50:32';
+</script>
+
+		</body>
+		</html>ß4ÊE      a»ÜΩa»Ü¿C«9úa»ÜΩ   ñ    O^partitionKey=%28https%2Clinuxize.com%29,:https://sholke.com/count?i=fmo0es52afwlcyij98kk0&a=71b80f4eb730afc37c7044c1f5e75ff39&cb=8478461640531645301 necko:classified 1 strongly-framed 1 security-info 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 request-method GET response-head HTTP/2 200 OK
+content-type: text/html; charset=UTF-8
+date: Sun, 26 Dec 2021 15:14:05 GMT
+x-cache: Miss from cloudfront
+via: 1.1 e8b6497d630b6a641681dce166a5a1db.cloudfront.net (CloudFront)
+x-amz-cf-pop: DEL54-C1
+x-amz-cf-id: 0Fxtf8LZLss5cpKJ6oiQIey7n7MbC58u8xKICEuiSvGK3rgkUq-Crg==
+X-Firefox-Spdy: h2
+ original-response-headers content-type: text/html; charset=UTF-8
+date: Sun, 26 Dec 2021 15:14:05 GMT
+x-cache: Miss from cloudfront
+via: 1.1 e8b6497d630b6a641681dce166a5a1db.cloudfront.net (CloudFront)
+x-amz-cf-pop: DEL54-C1
+x-amz-cf-id: 0Fxtf8LZLss5cpKJ6oiQIey7n7MbC58u8xKICEuiSvGK3rgkUq-Crg==
+X-Firefox-Spdy: h2
+ ctid 1 uncompressed-len 0 net-response-time-onstart 397 net-response-time-onstop 662   &o

@@ -1,0 +1,4 @@
+[Report]
+Uri=file:///home/shaurya/termexec.sh
+Message=Subject `file:///home/shaurya/termexec.sh' is not in domain `nie:DataObject' of property `nie:interpretedAs'
+Sparql=INSERT DATA {  GRAPH tracker:FileSystem {    <file:///home/shaurya/termexec.sh> tracker:extractorHash "(null)" .  }}; INSERT DATA {\n<file:///home/shaurya/termexec.sh> nie:interpretedAs _:1 .\n_:1 nie:mimeType "application/x-shellscript" ; \n  nie:isStoredAs <file:///home/shaurya/termexec.sh> .\n};\n

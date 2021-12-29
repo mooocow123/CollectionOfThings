@@ -1,0 +1,4 @@
+[Report]
+Uri=file:///home/shaurya/Documents/devkit/settings.py
+Message=Subject `file:///home/shaurya/Documents/devkit/settings.py' is not in domain `nie:DataObject' of property `nie:interpretedAs'
+Sparql=INSERT DATA {  GRAPH tracker:FileSystem {    <file:///home/shaurya/Documents/devkit/settings.py> tracker:extractorHash "(null)" .  }}; INSERT DATA {\n<file:///home/shaurya/Documents/devkit/settings.py> nie:interpretedAs _:1 .\n_:1 nie:mimeType "text/x-python" ; \n  nie:isStoredAs <file:///home/shaurya/Documents/devkit/settings.py> .\n};\n
